@@ -1,0 +1,1508 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="MobileOptimized" content="width">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>MonMedEnligne | Prenez rendez-vous chez un médecin ou un dentiste à Abomey Calavi</title>
+        <link rel="icon" href="assets/images/icon.png" type="image/jpg" sizes="16x16">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/hover-min.css">
+        <!-- Select2 -->
+        <link rel="stylesheet" href="assets/css/select2.min.css">
+        <!-- Theme style -->
+        <link rel="stylesheet" href="assets/css/AdminLTE.min.css">
+        <link rel="stylesheet" href="assets/css/common.css">
+        <!--  calendar --->
+        <link rel="stylesheet" href="assets/css/appointment/calendar.css">
+        <!--common-head-css -->
+        <link rel="stylesheet" href="assets/css/jquery.timepicker.css">
+        <link rel="stylesheet" href="assets/css/datepicker.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="assets/css/sticky.css">
+        <link rel="stylesheet" href="assets/css/select/bootstrap-select.min.css">
+        <link rel="stylesheet" href="assets/css/select/bootstrap-select-country.min.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <link rel="stylesheet" href="assets/css/chat/chat.css">
+        <link rel="stylesheet" href="assets/css/monpsy/style.css">
+
+        <link rel="stylesheet" href="assets/css/mobile/responsive.css">
+
+                                        
+
+                            
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146541379-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-146541379-1');
+        </script>
+            </head>
+    <body class="hold-transition  sidebar-mini">
+
+        <nav class="navbar navbar-default nav-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-xs-8 col-sm-12 logo-col">
+                        <div class="logo animated fadeInLeft">
+                            <span class="fa fa-arrow-left js-previous-btn" onclick="window.history.go(-1); return false;"></span>
+                            <a href="index.html">
+                                <img src="assets/images/monmedenligne_logo.png"  class="logo-img img-responsive col-lg-12 col-xs-12 col-sm-3" alt=""/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-xs-4 col-sm-12 header-sgnin">
+                        <div class="signin">
+                            <ul>
+                                                                <li class="register-index" >
+                                    <a href = "register/pre-signup"><img src="assets/images/home/1.png" />S'inscrire</a>
+                                </li>
+                                <li class="log-index">
+                                    <a href="chat/patient/messages@doctorId=308"> <img src="assets/images/home/2.png" />Mon Compte </a>
+                                </li>
+                                                            </ul>
+                        </div>
+                        <div class="clearfix hidden-xs"></div>
+                        <div class="navbar-header navbar-header-resp">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav nav-head animated fadeInDown">
+                                <li>
+                                    <a class="nav-close" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">×</a>
+                                </li>
+
+                                                                    <li class="nav-register">
+                                        <a href = "register/pre-signup"><img src="assets/images/home/1.png" />S'inscrire</a>
+                                    </li>
+                                    <li class="nav-log">
+                                        <a href="chat/patient/messages@doctorId=308"> <img src="assets/images/home/2.png" />Mon Compte </a>
+                                    </li>
+                                                                 <li class="active m-1"><a href="index.html">Accueil<span class="sr-only">(current)</span></a></li>
+                                <li><a href = "General/aboutus">A propos</a></li>
+                                <li><a href="General/faq">FAQ  </a></li>
+                                <li><a href="Blog">Blog  </a></li>
+
+                                                                <li class="nav-country">
+                                    <a href="search@city=9#" id="countryMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                                <span>
+                                            <img class="country-flag" alt="Benin" title="Benin" src="assets/images/flag/square/bj.svg" />
+                                        </span>
+                                                                                <div class="dropdown-menu dropdown-dropdown-menu" aria-labelledby="countryMenuButton">
+                                                                                        <a class="dropdown-item dropdown-country-picker" data-flag="true" data-toggle="tab" data-value="BJ" href="search@city=9#BJ">
+                                                <h5>
+                                                    <img class="country-flag" alt="Benin" title="Benin" src="assets/images/flag/square/bj.svg" />
+                                                    Benin
+                                                </h5>
+                                            </a>
+                                                                                    </div>
+                                    </a>
+                                </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        
+        
+    <div class="container-wrapper">
+        <div class="srch-patient-log">
+            <div class="container-search">
+                <div class="row">
+                    <div class="col-md-12 srch-main">
+                        <form name="search" method="get" class="form-doctor formap">
+                        <div class="search-label mobile-display">
+                            <h2>Prenez rendez-vous chez un médecin ou un dentiste à Abomey Calavi</h2>
+                        </div>
+
+                        <div class="wrapper-radio">
+                            <div class="booking-button js-booking-type " data-type="center"><i class="fa fa-building-o"> </i> Centre</div>
+                            <div class="booking-button js-booking-type " data-type="video"><i class="fa fa-video-camera"> </i> Video</div>
+                            <div class="booking-button js-booking-type active" data-type="home"><i class="fa fa-home"> </i> Domicile</div>
+                        </div>
+
+                        <input type="hidden" id="bookingType" name="search[bookingType]" value="home" value="home" />
+
+                        <div class="search-form">
+                            <div class="row-main">
+                                <div class="form-group">
+                                    <input type="text" id="search_name" name="search[name]" class="form-control js-autocomplete" placeholder="Médecins, Etablissements" />
+                                </div>
+                                <div class="form-group">
+                                    <select id="search_city" name="search[city]" class="form-control select2" placeholder="Ville"><option value="">Choisir une ville</option><option value="13">Ouidah</option><option value="2">Cotonou</option><option value="30">Allada</option><option value="8">Porto-Novo</option><option value="9" selected="selected">Abomey Calavi</option><option value="31">Parakou</option></select>
+                                </div>
+                                <div class="form-group">
+                                    <select id="search_speciality" name="search[speciality]" class="form-control js-select-speciality select2"><option value="">Choisir une spécialité</option><option value="37">Thermaliste</option><option value="38">Stomatologue</option><option value="39">Specialiste en reanimation</option><option value="40">Specialiste en medecine physique et de readaptation</option><option value="41">Specialiste en medecine legale et expertises medicales</option><option value="42">Specialiste en medecine interne</option><option value="43">Specialiste en medecine de catastrophe</option><option value="44">Specialiste en medecine aerospatiale</option><option value="45">Specialiste en hemobiologie transfusion</option><option value="46">Sage femme</option><option value="47">Rhumatologue</option><option value="48">Radiotherapeute</option><option value="49">Radiologue</option><option value="50">Psychotherapeute</option><option value="51">Psychomotricien</option><option value="52">Psychologue</option><option value="53">Psychiatre</option><option value="54">Podo orthesiste</option><option value="55">Pneumologue</option><option value="57">Planning familial</option><option value="58">Phoniatre</option><option value="59">Phlebologue</option><option value="60">Pharmacologue</option><option value="61">Pedicure podologue</option><option value="62">Pediatre</option><option value="63">Osteopathe</option><option value="64">Orthoptiste</option><option value="65">Orthoprothesiste</option><option value="66">Orthophoniste</option><option value="67">Orthopediste</option><option value="68">Orthopediste orthesiste podologiste</option><option value="69">Orthodontiste</option><option value="70">ORL Chirurgien de la face et du cou</option><option value="71">ORL</option><option value="72">Ophtalmologue</option><option value="73">Onco radiotherapeute</option><option value="74">Oncologue medical</option><option value="75">Onco hematologue</option><option value="76">Oculariste</option><option value="77">Neuro psychiatre</option><option value="78">Neuro pathologiste</option><option value="79">Neurologue</option><option value="80">Neurochirurgien</option><option value="81">Nephrologue</option><option value="82">Neonatologue</option><option value="83">Medecin urgentiste</option><option value="84">Medecin Specialiste de sante publique</option><option value="85">Medecin reanimateur</option><option value="86">Medecin penitentiaire</option><option value="87">Medecin nutritionniste</option><option value="88">Medecin morphologique et anti age</option><option value="89">Medecin generaliste</option><option value="90">Medecin du travail</option><option value="91">Medecin du sport</option><option value="92">Medecin de soins palliatifs</option><option value="93">Medecin de la reproduction et gynecologue medical</option><option value="94">Medecin de la reproduction</option><option value="95">Medecin de la douleur</option><option value="96">Medecin bucco dentaire</option><option value="97">Medecin biologiste</option><option value="98">Masseur kinesitherapeute</option><option value="99">Manipulateur en electroradiologie medicale</option><option value="100">Laboratoire de biologie medicale</option><option value="101">Laboratoire analyses medicales</option><option value="102">Infirmier</option><option value="103">Infectiologue</option><option value="104">Immunologue</option><option value="105">Homeopathe</option><option value="106">Hematologue</option><option value="107">Gynecologue obstetricien</option><option value="108">Gynecologue medical et obstetrique</option><option value="109">Gynecologue medical</option><option value="110">Geriatre</option><option value="111">Geneticien</option><option value="112">Gastro enterologue et hepatologue</option><option value="113">Ergotherapeute</option><option value="114">Epithesiste</option><option value="115">Endocrinologue</option><option value="116">Echographiste</option><option value="117">Dieteticien</option><option value="118">Dermatopathologue</option><option value="119">Dermatologue et venerologue</option><option value="120">Cytogeneticien</option><option value="122">Chirurgien dentiste</option><option value="123">Chirurgien visceral et digestif</option><option value="124">Chirurgien vasculaire</option><option value="125">Chirurgien urologue</option><option value="126">Chirurgien thoracique et cardio vasculaire</option><option value="127">Chirurgien senologue</option><option value="128">Chirurgien plasticien et esthetique</option><option value="129">Chirurgien orthopediste</option><option value="130">Chirurgien oral</option><option value="131">Chirurgien maxillo facial et stomatologue</option><option value="132">Chirurgien maxillo facial</option><option value="133">Chirurgien infantile</option><option value="134">Chirurgien general</option><option value="135">Chirurgien endocrinien</option><option value="136">Chirurgien de la main</option><option value="137">Chirurgien de la face et du cou</option><option value="138">Chirurgien cancerologue</option><option value="139">Chiropracteur</option><option value="140">Cardiologue</option><option value="141">Cancerologue radiotherapeute</option><option value="142">Cancerologue medical</option><option value="143">Cancerologue</option><option value="144">Auxiliaire en puericulture</option><option value="145">Audioprothesiste</option><option value="146">Assistant de service social</option><option value="147">Angiologue</option><option value="148">Anesthesiste</option><option value="149">Andrologue</option><option value="150">Anatomo cyto pathologiste</option><option value="151">Allergologue</option><option value="152">Addictologue</option><option value="153">Acupuncteur</option><option value="154">Medecine physique et readaptative</option><option value="155">Neuro Pédiatre</option><option value="156">Médecin aéronautique</option><option value="157">Epileptologue</option><option value="158">Neurologue-Epileptologue</option><option value="159">Périnatologue</option><option value="160">Masseur thérapeutique Alignopathe</option></select>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-lg submit-btn">
+                                        <img alt="loop" src="assets/images/patient-login/10.png" />Rechercher
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="row-secondary-wrapper">
+                                <div class="row-secondary">
+
+                                    <div class="form-group">
+                                        <div class="form-control">Filtrer par</div>
+                                    </div>
+                                    <div class="form-group">
+                                        <select id="search_visitation" name="search[visitation]" class="form-control js-visitation filter-field"><option value="">Motif de consultation</option><option value="48" data-speciality="89">Consultation de médecine générale</option><option value="49" data-speciality="89">Consultation de suivi</option><option value="51" data-speciality="37">Consultation de médecine thermale</option><option value="52" data-speciality="140">Consultation de suivi de cardiologie</option><option value="54" data-speciality="140">Première consultation de cardiologie</option><option value="55" data-speciality="89">Consultation de psychothérapie</option><option value="56" data-speciality="140">Echographie cardiaque</option><option value="57" data-speciality="49">IRM</option><option value="58" data-speciality="49">Radio</option><option value="59" data-speciality="49">Panoramique</option><option value="60" data-speciality="148">Consultation d&#039;anesthésie</option><option value="61" data-speciality="125">Première consultation d&#039;urologie</option><option value="62" data-speciality="125">Consultation de suivi d&#039;urologie</option><option value="63" data-speciality="124">Première consultation de chirurgie vasculaire</option><option value="65" data-speciality="124">Consultation de suivi de chirurgie vasculaire</option><option value="66" data-speciality="126">Première consultation </option><option value="67" data-speciality="126">Consultation de suivi de chirurgie thoracique</option><option value="68" data-speciality="143">Première consultation</option><option value="69" data-speciality="143">Consultation de suivi </option><option value="70" data-speciality="143">Urgence sein</option><option value="71" data-speciality="143">Urgence prostate</option><option value="72" data-speciality="122">Consultation</option><option value="73" data-speciality="122">Devis pour prothèse-Couronne</option><option value="74" data-speciality="122">Détartrage</option><option value="75" data-speciality="122">Urgence dentaire</option><option value="76" data-speciality="122">Extraction dentaire</option><option value="77" data-speciality="122">Soins dentaires</option><option value="78" data-speciality="122">Pose de prothèse dentaire (Couronne, onlay,etc.)</option><option value="79" data-speciality="122">Implant</option><option value="80" data-speciality="122">Traitement des racines</option><option value="81" data-speciality="108">Première consultation</option><option value="82" data-speciality="108">Consultation de suivi de gynécologie</option><option value="83" data-speciality="108">Première consultation de gynécologie/Adolescente </option><option value="84" data-speciality="108">Pose ou retrait de DIU (stérilet)</option><option value="85" data-speciality="108">Suivi simple</option><option value="86" data-speciality="102">Prise de sang</option><option value="87" data-speciality="102">Pansement</option><option value="88" data-speciality="102">Injection </option><option value="89" data-speciality="102">Ablation de fils/agrafes/points de suture</option><option value="90" data-speciality="102">Surveillance de la tension artérielle</option><option value="91" data-speciality="102">Autres</option><option value="92" data-speciality="97">Examen de sperme</option><option value="93" data-speciality="97">AMP</option><option value="94" data-speciality="97">Gynécologie</option><option value="95" data-speciality="97">Suivi biologie de la reproduction</option><option value="96" data-speciality="97">Bactériologie/Mycologie/Parasitologie</option><option value="97" data-speciality="97">Analyse sanguine</option><option value="98" data-speciality="97">Diabète</option><option value="99" data-speciality="97">Grossesse</option><option value="100" data-speciality="97">Bilan MST</option><option value="101" data-speciality="97">Prélèvement d&#039;urine</option><option value="102" data-speciality="97">Autres</option><option value="103" data-speciality="89">Acte technique (infiltration, etc.)</option><option value="104" data-speciality="79">Première consultation</option><option value="105" data-speciality="79">Consultation de suivi de neurologie</option><option value="106" data-speciality="79">Electromyogramme (EMG)</option><option value="107" data-speciality="79">Electro-encéphalogramme (EEG)</option><option value="108" data-speciality="79">Polygraphie du sommeil</option><option value="109" data-speciality="79">Autres</option><option value="110" data-speciality="80">Consultation de suivi</option><option value="111" data-speciality="80">Première consultation</option><option value="112" data-speciality="80">Consultation post-opératoire de neurochirurgie</option><option value="113" data-speciality="80">Consultation pour deuxième avis</option><option value="114" data-speciality="80">Autres</option><option value="115" data-speciality="72">Première consultation</option><option value="116" data-speciality="72">Consultation de suivi</option><option value="117" data-speciality="72">Lentilles de contact</option><option value="118" data-speciality="72">Acuité visuelle (+60 ans)</option><option value="119" data-speciality="72">Glaucome</option><option value="120" data-speciality="72">DMLA</option><option value="121" data-speciality="72">Cataracte</option><option value="122" data-speciality="72">Autres</option><option value="123" data-speciality="71">Consultation vertiges : troubles de l&#039;équilibre - instabilité - mal des transports</option><option value="124" data-speciality="71">Consultation ORL</option><option value="125" data-speciality="71">Consultation de suivi</option><option value="126" data-speciality="71">Autres</option><option value="127" data-speciality="62">Consultation de pédiatrie</option><option value="128" data-speciality="62">Nouveau-né -Première consultation</option><option value="129" data-speciality="62">Vaccination</option><option value="130" data-speciality="62">Enfant-Consultation diététique</option><option value="131" data-speciality="62">Enfant-Consultation de suivi</option><option value="132" data-speciality="62">Nouveau-né - Consultation de suivi</option><option value="133" data-speciality="46">Pose ou retrait de DIU (stérilet)</option><option value="134" data-speciality="46">Consultation de suivi de grossesse</option><option value="135" data-speciality="46">Consultation de suivi de gynécologie</option><option value="136" data-speciality="46">Séance de rééducation périnéale</option><option value="137" data-speciality="46">Consultation post-natale</option><option value="138" data-speciality="46">Entretien prénatal précoce (EPP)</option><option value="139" data-speciality="46">Première consultation pour mineure</option><option value="140" data-speciality="46">Autres</option><option value="141" data-speciality="47">Consultation de rhumatologie</option><option value="142" data-speciality="47">Consultation de suivi de rhumatologie</option><option value="143" data-speciality="47">Première consultation</option><option value="144" data-speciality="47">Renouvellement polyarthrite</option><option value="145" data-speciality="47">Consultation de rhumatologie avec électromyogramme</option><option value="146" data-speciality="47">Infiltration sous contrôle radio</option><option value="147" data-speciality="98">Première consultation</option><option value="148" data-speciality="98">Consultation de suivi</option><option value="149" data-speciality="98">Douleur au dos</option><option value="151" data-speciality="98">Membre inférieur</option><option value="152" data-speciality="98">Douleur à la cheville</option><option value="153" data-speciality="98">Douleur à l&#039;épaule</option><option value="154" data-speciality="87">Première consultation de nutrition</option><option value="155" data-speciality="87">Consultation de suivi de nutrition</option><option value="156" data-speciality="87">Mesotherapie</option><option value="157" data-speciality="87">Consultation permis de conduire</option><option value="158" data-speciality="69">Première consultation</option><option value="159" data-speciality="69">Consultation de suivi</option><option value="160" data-speciality="63">Première consultation d&#039;osthéopathie</option><option value="161" data-speciality="63">Consultation de suivi d&#039;osthépathie</option><option value="162" data-speciality="63">Enfant- Première consultation d&#039;osthépathie</option><option value="163" data-speciality="63">Femme enceinte-première consultation d&#039;osthépathie</option><option value="164" data-speciality="63">Nourrisson-première consultation d&#039;osthépathie</option><option value="165" data-speciality="55">Consultation de pneumologie</option><option value="166" data-speciality="55">Consultation pour troubles du sommeil</option><option value="167" data-speciality="55">Renouvellement de PPC (machine pour apnée)</option><option value="168" data-speciality="55">Consultation de suivi de pneumologie</option><option value="169" data-speciality="55">Première consultation</option><option value="170" data-speciality="54">Semelles orthopédiques</option><option value="171" data-speciality="54">Bilan podologique</option><option value="172" data-speciality="54">Chaussures et chaussons médicaux</option><option value="173" data-speciality="54">Compensation de raccourcissement sur chaussures</option><option value="174" data-speciality="54">Orthoplastie</option><option value="175" data-speciality="68">Semelles orthopédiques</option><option value="176" data-speciality="68">Semelles de posturologie</option><option value="177" data-speciality="68">Semelles sport</option><option value="178" data-speciality="68">Semelles enfants</option><option value="179" data-speciality="68">Lymphœdème</option><option value="180" data-speciality="68">Ceinture sur mesure</option><option value="181" data-speciality="68">Corset d&#039;immobilisation</option><option value="182" data-speciality="68">Bas de contention</option><option value="183" data-speciality="68">Hallux Valgus</option><option value="184" data-speciality="68">Prothèses mammaires</option><option value="185" data-speciality="68">Autres</option><option value="186" data-speciality="53">Première consultation de psychiatrie</option><option value="187" data-speciality="53">Consultation de suivi de psychiatrie</option><option value="188" data-speciality="53">Adolescent-Première consultation de psychiatrie</option><option value="189" data-speciality="53">Adolescent- Consultation de  suivi de psychiatrie</option><option value="190" data-speciality="52">Première consultation</option><option value="191" data-speciality="52">Consultation de suivi</option><option value="192" data-speciality="52">Adolescent-Première consultation de psychologie</option><option value="193" data-speciality="52">Adolescent-Consultation de suivi de psychologie</option><option value="194" data-speciality="131">Première consultation</option><option value="195" data-speciality="131">Consultation post-opératoire de stomatologie</option><option value="196" data-speciality="131">Consultation de suivi</option><option value="197" data-speciality="128">Main-Première consultation</option><option value="198" data-speciality="128">Première consultation de chirurgie esthétique</option><option value="199" data-speciality="128">Consultation chirurgie dermatologique</option><option value="200" data-speciality="128">Main-Consultation post opératoire</option><option value="201" data-speciality="128">Consultation post-opératoire Chirurgie esthétique</option><option value="202" data-speciality="128">Injection Botox</option><option value="203" data-speciality="128">Autres</option><option value="204" data-speciality="119">Première consultation</option><option value="205" data-speciality="119">Consultation de suivi</option><option value="206" data-speciality="119">Dépistage grain de beauté</option><option value="207" data-speciality="119">Consultation d&#039;acné</option><option value="208" data-speciality="119">Consultation de verrues</option><option value="209" data-speciality="118">Consultation de verrues</option><option value="210" data-speciality="118">Consultation d&#039;acné</option><option value="211" data-speciality="118">Consultation de suivi</option><option value="212" data-speciality="118">Première consultation</option><option value="213" data-speciality="112">Première consultation</option><option value="214" data-speciality="112">Consultation de suivi</option><option value="215" data-speciality="112">Consultation post-opératoire de gastro-entérologie</option><option value="216" data-speciality="106">Première consultation</option><option value="217" data-speciality="106">Consultation de suivi</option><option value="218" data-speciality="105">Première consultation</option><option value="219" data-speciality="105">Consultation de suivi d&#039;homéopathie</option><option value="220" data-speciality="100">Prise de sang</option><option value="221" data-speciality="100">Test HGPO (dépistage du diabète gestationnel)</option><option value="222" data-speciality="100">Test d&#039;Helikit</option><option value="223" data-speciality="100">Prélèvement bactériologique</option><option value="224" data-speciality="38">Première consultation de stomatologie</option><option value="225" data-speciality="38">Consultation</option><option value="226" data-speciality="49">Scanner genoux sans injection</option><option value="227" data-speciality="49">Scanner sinus sans injection</option><option value="228" data-speciality="49">Scanner osseux sans injection</option><option value="229" data-speciality="49">Scanner hanche sans injection</option><option value="230" data-speciality="49">Scanner rachis cervical non opéré sans injection</option><option value="231" data-speciality="49">Scanner rachis lombaire non opéré avec injection</option><option value="232" data-speciality="49">Uroscanner avec injection</option><option value="233" data-speciality="49">Scanner rachis dorsal non opéré sans injection</option><option value="234" data-speciality="49">Scanner rachis dorsal non opéré avec injection</option><option value="235" data-speciality="49">Scanner rachis cervical non opéré avec injection</option><option value="236" data-speciality="49">Scanner thorax sans injection</option><option value="237" data-speciality="49">Scanner cérébral</option><option value="238" data-speciality="49">Scanner abdominal et/ou abdomino-pelvien</option><option value="239" data-speciality="49">Echographie</option><option value="240" data-speciality="49">Mammographie</option><option value="241" data-speciality="89">Bilan de santé</option><option value="242" data-speciality="96">Première consultation dentaire</option><option value="243" data-speciality="96">Consultation de suivi dentaire</option><option value="244" data-speciality="96">Contrôle annuel et/ou détartrage</option><option value="245" data-speciality="107">Echo gynécologique</option><option value="246" data-speciality="107">Echo de datation</option><option value="247" data-speciality="107">Echo pelvienne</option><option value="248" data-speciality="107">Consultation de suivi de grossesse</option><option value="249" data-speciality="107">Hystéroscopie</option><option value="250" data-speciality="107">Colposcopie</option><option value="251" data-speciality="107">Consultation</option><option value="252" data-speciality="115">Première consultation d&#039;endocrinologie</option><option value="253" data-speciality="115">Consultation de suivi d&#039;endocrinologie</option><option value="254" data-speciality="115">Première consultation de diabétologie</option><option value="255" data-speciality="115">Consultation de suivi de diabétologie</option><option value="256" data-speciality="115">Autre</option><option value="257" data-speciality="42">Première consultation de médecine interne</option><option value="258" data-speciality="42">Consultation de suivi de médecine interne</option><option value="259" data-speciality="42">Consultation pour maladies infectieuses</option><option value="260" data-speciality="150">Ponction de sein</option><option value="261" data-speciality="150">Ponction de thyroïde</option><option value="262" data-speciality="150">Biopsie</option><option value="263" data-speciality="150">Ponction avec échographie</option><option value="264" data-speciality="150">Cytoponction</option><option value="265" data-speciality="116">Echographie</option><option value="266" data-speciality="116">Echographie de grossesse</option><option value="267" data-speciality="116">Doppler</option><option value="268" data-speciality="134">Première consultation de chirurgie</option><option value="269" data-speciality="134">Consultation de suivi de chirurgie</option><option value="270" data-speciality="134">Consultation post-opératoire</option><option value="271" data-speciality="134">Bloc opératoire</option><option value="272" data-speciality="81">Première consultation de néphrologie</option><option value="273" data-speciality="81">Consultation de suivi de néphrologie</option><option value="274" data-speciality="81">Consultation de suivi post-greffe</option><option value="275" data-speciality="81">Consultation de suivi pour hypertension artérielle</option><option value="276" data-speciality="81">Autre</option><option value="277" data-speciality="129">Première consultation</option><option value="278" data-speciality="129">Consultation de suivi</option><option value="279" data-speciality="40">Première consultation</option><option value="280" data-speciality="40">Consultation de suivi Traumatologie du sport</option><option value="281" data-speciality="40">Première consultation Traumatologie du sport</option><option value="282" data-speciality="40">Première consultation de médecine physique et de réadaptation</option><option value="283" data-speciality="40">Infiltration</option><option value="284" data-speciality="40">Consultation de mésothérapie</option><option value="285" data-speciality="40">Consultation d&#039;appareillage</option><option value="286" data-speciality="40">Consultation de contrôle post-opératoire</option><option value="287" data-speciality="40">Electro-neuromyographie (ENMG)</option><option value="288" data-speciality="40">Consultation de médecine du sport</option><option value="289" data-speciality="133">Première consultation de chirurgie pédiatrique</option><option value="290" data-speciality="133">Consultation de suivi de chirurgie pédiatrique</option><option value="291" data-speciality="133">Consultation post-opératoire de chirurgie pédiatrique</option><option value="292" data-speciality="133">Diagnostic anténatal</option><option value="293" data-speciality="133">Consultation post-urgences/traumatologie/plâtre</option><option value="294" data-speciality="133">Déplâtrage</option><option value="295" data-speciality="133">Autre</option><option value="296" data-speciality="134">Appendicectomie</option><option value="297" data-speciality="134">Colostomie</option><option value="298" data-speciality="134">Gastrectomie</option><option value="299" data-speciality="134">Hernie ombilicale</option><option value="300" data-speciality="134">Hernie inguinale</option><option value="301" data-speciality="107">Première consultation de gynécologie</option><option value="302" data-speciality="107">Consultation de suivi de gynécologie</option><option value="303" data-speciality="155">Première consultation de chirurgie pédiatrique</option><option value="304" data-speciality="155">Consultation post-opératoire de chirurgie pédiatrique</option><option value="305" data-speciality="155">Consultation de suivi de chirurgie pédiatrique</option><option value="306" data-speciality="100">Test Respiratoire Elico Bacter</option><option value="307" data-speciality="156">Consultation de médecine aéronautique</option><option value="308" data-speciality="155">Consultation de neuro-pédiatrie</option><option value="309" data-speciality="157">Consultation en épileptologie</option><option value="310" data-speciality="122">Chirurgie buccale</option><option value="311" data-speciality="122">Orthodontie</option><option value="312" data-speciality="159">Soins médicaux post-accouchement</option><option value="313" data-speciality="159">Consultation de périnatologie</option><option value="314" data-speciality="159">Consultation de suivi en périnatologie</option><option value="315" data-speciality="122">Contrôle</option><option value="316" data-speciality="38">Contrôle</option><option value="317" data-speciality="107">Contrôle</option><option value="318" data-speciality="139">Consultation de suivi</option><option value="319" data-speciality="139">Première Consultation</option><option value="320" data-speciality="160">Première Consultation</option><option value="321" data-speciality="160">Consultation de suivi</option><option value="322" data-speciality="72">Urgence médicale</option><option value="323" data-speciality="72">Consultation et extraction de corps étranger</option><option value="324" data-speciality="72">Abcès de cornées</option><option value="325" data-speciality="72">Fond oeil</option><option value="326" data-speciality="72">Gonioscopie</option><option value="327" data-speciality="72">Skiascopie</option><option value="328" data-speciality="72">Biométrie</option><option value="329" data-speciality="72">Echographie AB/ODG</option><option value="330" data-speciality="72">Lavage des voies lacrymales</option><option value="331" data-speciality="72">Champ visuel automatisé</option><option value="332" data-speciality="72">Angiographie</option><option value="333" data-speciality="72">Rétinographie</option><option value="334" data-speciality="72">FO au bloc</option><option value="335" data-speciality="72">OCT Maculaire ou Papillaire</option><option value="336" data-speciality="72">Bilan Orthoptique</option><option value="337" data-speciality="72">ERG-PEV</option><option value="338" data-speciality="72">HEU LANCASTER</option><option value="339" data-speciality="72">INJECTION LATERO BULBAIRE/KENACORT</option><option value="340" data-speciality="72">Vision des couleurs</option><option value="341" data-speciality="72">Laser YAG(CATARACTE SECONDAIRE)</option><option value="342" data-speciality="72">Photocoagulation au laser jaune(DIABETIQUE)</option><option value="343" data-speciality="72">Laser SLT</option><option value="344" data-speciality="72">Séance de rééducation</option><option value="345" data-speciality="72">Chalazion</option><option value="346" data-speciality="72">Chalazion et  Anapath</option><option value="347" data-speciality="72">Kyste</option><option value="348" data-speciality="72">Ptérygion et greffe</option><option value="349" data-speciality="72">Décapage/Parage</option><option value="350" data-speciality="72">Glaucome</option><option value="351" data-speciality="72">Plaie de la  cornée/Globe</option><option value="352" data-speciality="72">Evicération</option><option value="353" data-speciality="72">Cataracte avec implant  et Bimétrie</option><option value="354" data-speciality="72">Lavage complémentaire</option><option value="355" data-speciality="72">Cataracte sans implant</option><option value="356" data-speciality="72">Phaco-émulsification  et Biométrie</option><option value="357" data-speciality="72">Chirurgie des paupières</option><option value="358" data-speciality="72">Explantation (Ancien patient)</option><option value="359" data-speciality="72">Explantation (Nouveau patient)</option><option value="360" data-speciality="72">Lavage prothèse</option><option value="361" data-speciality="72">Implantation secondaire</option><option value="362" data-speciality="72">Pelage cornéen</option><option value="363" data-speciality="72">Cure Hyphéma</option><option value="364" data-speciality="72">Cure d&#039;hernie</option><option value="365" data-speciality="72">Repositionnement implant</option><option value="366" data-speciality="72">Anesthésie loco régionale</option><option value="367" data-speciality="72">Ablation cils</option><option value="368" data-speciality="72">Cure de Symblepharon</option><option value="369" data-speciality="72">Refection cavité</option><option value="370" data-speciality="72">Papillome</option><option value="371" data-speciality="72">Exerese tumeur limbique</option><option value="372" data-speciality="72">Dicision capsulaire</option><option value="373" data-speciality="72">Iridotomie</option><option value="374" data-speciality="72">Iridectomie</option><option value="375" data-speciality="89">Vaccination</option></select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <select id="search_insurance" name="search[insurance]" class="form-control filter-field"><option value="">Assurance</option><option value="22">Saham Assurance</option><option value="23">AXA</option><option value="24">CNSS</option><option value="25">RAMU</option><option value="26">Africaine des assurances</option><option value="27">Saarb assurance</option><option value="28">NSIA</option><option value="29">SUNU</option><option value="30">Allianz</option><option value="31">AVIE</option><option value="32">Benin Assur</option><option value="34">La federale assurances</option><option value="35">Ascoma</option><option value="36">GENERALE DES ASSURANCES DU BENIN</option><option value="37">GRAS SAVOYE / AA</option><option value="38">GRAS SAVOYE / ALLIANZ</option><option value="39">GRAS SAVOYE / AUTOFIC / GSB / ECOBANK</option><option value="40">GRAS SAVOYE </option><option value="41">GRAS SAVOYE / FEDAS</option><option value="42">ASA BENIN</option><option value="43">FEDAS</option><option value="44">Olea</option><option value="45">Atlantique Assurance</option><option value="46">ASCOMA</option><option value="57">Allianz</option><option value="59">ATLANTIQUE ASSURANCES</option><option value="61">Toutes les assurances</option><option value="62">Aucune</option><option value="63">MSH</option><option value="64">PACTILIS</option><option value="65">SAAR</option><option value="66">CNUT</option><option value="67">SOS VILLAGE DES ENFANTS</option><option value="68">Coopération Suisse</option><option value="69">CAA</option><option value="70">Port Autonome de Cotonou</option><option value="71">Signa</option><option value="72">NOBILA</option><option value="73">MGEN</option><option value="74">RCAM</option><option value="75">HSH INTERNATIONAL</option><option value="76">CFE</option><option value="77">MSH</option><option value="78">CIGMA</option><option value="79">CPAM</option><option value="80">TRANSVIE</option><option value="81">MSO</option></select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <select id="search_language" name="search[language]" class="form-control filter-field"><option value="">Langue</option><option value="8">Anglais</option><option value="22">Français</option><option value="23">Arabe</option><option value="24">Amazigh</option><option value="25">Espagnol</option><option value="26">Italien</option></select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <select id="search_gender" name="search[gender]" class="form-control filter-field"><option value="">Sexe</option><option value="female">Femme</option><option value="male">Homme</option></select>
+                                    </div>
+                                </div>
+                            </div>
+
+                                                            <input type="hidden" id="search__token" name="search[_token]" value="EAwLhET8oHel2p9N5cqWMgPR4P4X4sodpTtAJzTLFvw" />
+                        </div>
+
+                        </form>
+                    </div>
+                    </div>
+
+                <div class="row">
+                    <div class="col-md-12 doctor">
+                        <h4><span><img src="assets/images/patient-login/11.png"> </span>Médecin près de chez vous</h4>
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div>
+
+    <section class="search-tabs">
+        <div class="tabbable" id="tabs-331065">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link filter-tab" data-toggle="tab" href="search@city=9#" role="tab" aria-selected="false">
+                        Filtres
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link res-tab" data-toggle="tab" href="search@city=9#" role="tab" aria-selected="false">
+                        Résultats
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link in map-tab" data-value data-toggle="tab" href="search@city=9#" role="tab" aria-selected="true">
+                        Carte
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="container results-container results-mode">
+        <div class="doctor-sub">
+            <div class="search-label mobile-hidden">
+                <h2>Prenez rendez-vous chez un médecin ou un dentiste à Abomey Calavi</h2>
+            </div>
+
+            <h3><img src="assets/images/patient-login/12.png"></h3>
+            <h4>Résultats</h4>
+        </div>
+
+        <div class="row result-wrapper" id="result-wrapper">
+            <div class="doctor-pat-srch col-md-8">
+                                    <div class="doctor-wrapper">
+                        <input type="hidden" value="" id="actual_data">
+                        <div id="doctorMapData_59" class="js-doctor-map-data"
+                             data-name="Dr SOSSA Blandine"
+                             data-latitude="6.3823917" data-longitude="2.3250895"
+                             data-address="Godomey-Sèdégbé dans la 3ème von à gauche après Pharmacie Pk14 ."></div>
+
+                        <div class="doctor-wrapper-content doctor row" id="updates">
+                            <div class="col-md-6 evt-br" style="padding: 0;">
+                                <div class="doctor">
+                                    <div class="left-events left-img-ph">
+                                        <img alt="SOSSA Blandine"
+                                             src="uploads/doctor/blandine-sossa-59_0757556001629212483.jpg"/>
+                                    </div>
+                                    <div class="left-events left-infos">
+                                        <h5>Dr SOSSA Blandine</h5>
+                                        <div class="speciality">Pediatre</div>
+                                        <div class="gc-ratting" data-rate="0"
+                                             title="not rated yet" style="cursor: default; width: 100px;"></div>
+                                        <div class="pt-ent">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6>
+                                                        <span><img src="assets/images/patient-login/13.png"></span>&nbsp; Abomey Calavi
+                                                        , Benin</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-prf">
+                                    <div class="row">
+                                        <div class="col btn-profile">
+                                            <h6>
+                                                <span><img src="assets/images/patient-login/14.png"></span>
+                                                <a href="doctor/profile/sossa-blandine-117">Voir
+                                                    profil</a>
+                                            </h6>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div data-doctor="59"
+                                 class="col-md-6 evt-br-1 sticky-calendar js-calendar-wrapper"
+                                 data-center-id="8"
+                                 data-center-type="medical" id="calendar_blk">
+
+                                <div class="mobile-hidden">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="59" id="evt-br-doc_59">
+  <div class="date-head">
+    <div class="previous-cal-app" id="59" data-date="Sun 2023-09-24" data-columns="3" data-selected="true" data-div="evt-br-doc_59">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mar</span><br/>
+          <span class="dttime-list-date">26-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mer</span><br/>
+          <span class="dttime-list-date">27-09-2023</span>
+        </li>
+              </ul>
+    </div>
+    <div class="next-cal-app" id="59" data-selected="true"  data-date="Tue 2023-09-26" data-columns="3" data-div="evt-br-doc_59" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul></ul></div></div>
+  </div>
+
+
+                                </div>
+                                <div class="mobile-display">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="59" id="evt-br-doc_59">
+  <div class="date-head">
+    <div class="previous-cal-app" id="59" data-date="Sun 2023-09-24" data-columns="1" data-selected="true" data-div="evt-br-doc_59">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                              </ul>
+    </div>
+    <div class="next-cal-app" id="59" data-selected="true"  data-date="Tue 2023-09-26" data-columns="1" data-div="evt-br-doc_59" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div></div>
+  </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="doctor-wrapper">
+                        <input type="hidden" value="" id="actual_data">
+                        <div id="doctorMapData_188" class="js-doctor-map-data"
+                             data-name="Dr HOSSOU Mènondji"
+                             data-latitude="6.375002" data-longitude="2.3423493"
+                             data-address="Godomey Fignonhou, en face du collège Nascimento"></div>
+
+                        <div class="doctor-wrapper-content doctor row" id="updates">
+                            <div class="col-md-6 evt-br" style="padding: 0;">
+                                <div class="doctor">
+                                    <div class="left-events left-img-ph">
+                                        <img alt="HOSSOU Mènondji"
+                                             src="assets/images/home/man.png"/>
+                                    </div>
+                                    <div class="left-events left-infos">
+                                        <h5>Dr HOSSOU Mènondji</h5>
+                                        <div class="speciality">Medecin generaliste</div>
+                                        <div class="gc-ratting" data-rate="0"
+                                             title="not rated yet" style="cursor: default; width: 100px;"></div>
+                                        <div class="pt-ent">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6>
+                                                        <span><img src="assets/images/patient-login/13.png"></span>&nbsp; Abomey Calavi
+                                                        , Benin</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-prf">
+                                    <div class="row">
+                                        <div class="col btn-profile">
+                                            <h6>
+                                                <span><img src="assets/images/patient-login/14.png"></span>
+                                                <a href="doctor/profile/hossou-menondji-375">Voir
+                                                    profil</a>
+                                            </h6>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div data-doctor="188"
+                                 class="col-md-6 evt-br-1 sticky-calendar js-calendar-wrapper"
+                                 data-center-id="35"
+                                 data-center-type="clinic" id="calendar_blk">
+
+                                <div class="mobile-hidden">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="188" id="evt-br-doc_188">
+  <div class="date-head">
+    <div class="previous-cal-app" id="188" data-date="Sun 2023-09-24" data-columns="3" data-selected="true" data-div="evt-br-doc_188">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mar</span><br/>
+          <span class="dttime-list-date">26-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mer</span><br/>
+          <span class="dttime-list-date">27-09-2023</span>
+        </li>
+              </ul>
+    </div>
+    <div class="next-cal-app" id="188" data-selected="true"  data-date="Tue 2023-09-26" data-columns="3" data-div="evt-br-doc_188" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-27" data-calendar-time="15:00" class="js-calendar-time gettimecal  booking" id="188_wed 2023-09-27_15:00" > 15:00</li><li data-calendar-date="2023-09-27" data-calendar-time="15:30" class="js-calendar-time gettimecal  booking" id="188_wed 2023-09-27_15:30" > 15:30</li><li data-calendar-date="2023-09-27" data-calendar-time="16:00" class="js-calendar-time gettimecal  booking" id="188_wed 2023-09-27_16:00" > 16:00</li><li data-calendar-date="2023-09-27" data-calendar-time="16:30" class="js-calendar-time gettimecal  booking" id="188_wed 2023-09-27_16:30" > 16:30</li><li data-calendar-date="2023-09-27" data-calendar-time="17:00" class="js-calendar-time   booking" id="188_wed 2023-09-27_17:00" > 17:00</li></ul></div></div>
+  </div>
+
+
+                                </div>
+                                <div class="mobile-display">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="188" id="evt-br-doc_188">
+  <div class="date-head">
+    <div class="previous-cal-app" id="188" data-date="Sun 2023-09-24" data-columns="1" data-selected="true" data-div="evt-br-doc_188">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                              </ul>
+    </div>
+    <div class="next-cal-app" id="188" data-selected="true"  data-date="Tue 2023-09-26" data-columns="1" data-div="evt-br-doc_188" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div></div>
+  </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="doctor-wrapper">
+                        <input type="hidden" value="" id="actual_data">
+                        <div id="doctorMapData_233" class="js-doctor-map-data"
+                             data-name="Dr SOLETE Perrens P."
+                             data-latitude="6.3906795" data-longitude="2.3509409"
+                             data-address="Godomey quartier yromahouto à proximité de l&#039;échangeur , carrée 9999"></div>
+
+                        <div class="doctor-wrapper-content doctor row" id="updates">
+                            <div class="col-md-6 evt-br" style="padding: 0;">
+                                <div class="doctor">
+                                    <div class="left-events left-img-ph">
+                                        <img alt="SOLETE Perrens P."
+                                             src="uploads/doctor/perrens-p.-solete-233_0887928001628941222.jpg"/>
+                                    </div>
+                                    <div class="left-events left-infos">
+                                        <h5>Dr SOLETE Perrens P.</h5>
+                                        <div class="speciality">Rhumatologue</div>
+                                        <div class="gc-ratting" data-rate="0"
+                                             title="not rated yet" style="cursor: default; width: 100px;"></div>
+                                        <div class="pt-ent">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6>
+                                                        <span><img src="assets/images/patient-login/13.png"></span>&nbsp; Abomey Calavi
+                                                        , Benin</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-prf">
+                                    <div class="row">
+                                        <div class="col btn-profile">
+                                            <h6>
+                                                <span><img src="assets/images/patient-login/14.png"></span>
+                                                <a href="doctor/profile/solete-perrens-p-465">Voir
+                                                    profil</a>
+                                            </h6>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div data-doctor="233"
+                                 class="col-md-6 evt-br-1 sticky-calendar js-calendar-wrapper"
+                                 data-center-id="9"
+                                 data-center-type="medical" id="calendar_blk">
+
+                                <div class="mobile-hidden">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="233" id="evt-br-doc_233">
+  <div class="date-head">
+    <div class="previous-cal-app" id="233" data-date="Sun 2023-09-24" data-columns="3" data-selected="true" data-div="evt-br-doc_233">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mar</span><br/>
+          <span class="dttime-list-date">26-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mer</span><br/>
+          <span class="dttime-list-date">27-09-2023</span>
+        </li>
+              </ul>
+    </div>
+    <div class="next-cal-app" id="233" data-selected="true"  data-date="Tue 2023-09-26" data-columns="3" data-div="evt-br-doc_233" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul></ul></div></div>
+  </div>
+
+
+                                </div>
+                                <div class="mobile-display">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="233" id="evt-br-doc_233">
+  <div class="date-head">
+    <div class="previous-cal-app" id="233" data-date="Sun 2023-09-24" data-columns="1" data-selected="true" data-div="evt-br-doc_233">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                              </ul>
+    </div>
+    <div class="next-cal-app" id="233" data-selected="true"  data-date="Tue 2023-09-26" data-columns="1" data-div="evt-br-doc_233" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div></div>
+  </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="doctor-wrapper">
+                        <input type="hidden" value="" id="actual_data">
+                        <div id="doctorMapData_279" class="js-doctor-map-data"
+                             data-name="Dr HONHONOU Romulus"
+                             data-latitude="6.3789944" data-longitude="2.3414245"
+                             data-address="Abomey calavi Godomey"></div>
+
+                        <div class="doctor-wrapper-content doctor row" id="updates">
+                            <div class="col-md-6 evt-br" style="padding: 0;">
+                                <div class="doctor">
+                                    <div class="left-events left-img-ph">
+                                        <img alt="HONHONOU Romulus"
+                                             src="uploads/doctor/romulus-honhonou-279_0484432001646314296.jpg"/>
+                                    </div>
+                                    <div class="left-events left-infos">
+                                        <h5>Dr HONHONOU Romulus</h5>
+                                        <div class="speciality">Medecin generaliste</div>
+                                        <div class="gc-ratting" data-rate="0"
+                                             title="not rated yet" style="cursor: default; width: 100px;"></div>
+                                        <div class="pt-ent">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6>
+                                                        <span><img src="assets/images/patient-login/13.png"></span>&nbsp; Abomey Calavi
+                                                        , Benin</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-prf">
+                                    <div class="row">
+                                        <div class="col btn-profile">
+                                            <h6>
+                                                <span><img src="assets/images/patient-login/14.png"></span>
+                                                <a href="doctor/profile/honhonou-romulus-557">Voir
+                                                    profil</a>
+                                            </h6>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div data-doctor="279"
+                                 class="col-md-6 evt-br-1 sticky-calendar js-calendar-wrapper"
+                                 data-center-id="35"
+                                 data-center-type="clinic" id="calendar_blk">
+
+                                <div class="mobile-hidden">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="279" id="evt-br-doc_279">
+  <div class="date-head">
+    <div class="previous-cal-app" id="279" data-date="Sun 2023-09-24" data-columns="3" data-selected="true" data-div="evt-br-doc_279">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mar</span><br/>
+          <span class="dttime-list-date">26-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mer</span><br/>
+          <span class="dttime-list-date">27-09-2023</span>
+        </li>
+              </ul>
+    </div>
+    <div class="next-cal-app" id="279" data-selected="true"  data-date="Tue 2023-09-26" data-columns="3" data-div="evt-br-doc_279" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-25" data-calendar-time="18:00" class="js-calendar-time gettimecal  booking" id="279_mon 2023-09-25_18:00" > 18:00</li><li data-calendar-date="2023-09-25" data-calendar-time="18:45" class="js-calendar-time gettimecal  booking" id="279_mon 2023-09-25_18:45" > 18:45</li><li data-calendar-date="2023-09-25" data-calendar-time="19:30" class="js-calendar-time gettimecal  booking" id="279_mon 2023-09-25_19:30" > 19:30</li><li data-calendar-date="2023-09-25" data-calendar-time="20:15" class="js-calendar-time gettimecal  booking" id="279_mon 2023-09-25_20:15" > 20:15</li><li data-calendar-date="2023-09-25" data-calendar-time="21:00" class="js-calendar-time   booking" id="279_mon 2023-09-25_21:00" > 21:00</li></ul></div><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-26" data-calendar-time="18:00" class="js-calendar-time gettimecal  booking" id="279_tue 2023-09-26_18:00" > 18:00</li><li data-calendar-date="2023-09-26" data-calendar-time="18:45" class="js-calendar-time gettimecal  booking" id="279_tue 2023-09-26_18:45" > 18:45</li><li data-calendar-date="2023-09-26" data-calendar-time="19:30" class="js-calendar-time gettimecal  booking" id="279_tue 2023-09-26_19:30" > 19:30</li><li data-calendar-date="2023-09-26" data-calendar-time="20:15" class="js-calendar-time gettimecal  booking" id="279_tue 2023-09-26_20:15" > 20:15</li><li data-calendar-date="2023-09-26" data-calendar-time="21:00" class="js-calendar-time   booking" id="279_tue 2023-09-26_21:00" > 21:00</li></ul></div><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-27" data-calendar-time="18:45" class="js-calendar-time gettimecal  booking" id="279_wed 2023-09-27_18:45" > 18:45</li><li data-calendar-date="2023-09-27" data-calendar-time="19:30" class="js-calendar-time gettimecal  booking" id="279_wed 2023-09-27_19:30" > 19:30</li><li data-calendar-date="2023-09-27" data-calendar-time="20:15" class="js-calendar-time gettimecal  booking" id="279_wed 2023-09-27_20:15" > 20:15</li><li data-calendar-date="2023-09-27" data-calendar-time="21:00" class="js-calendar-time gettimecal  booking" id="279_wed 2023-09-27_21:00" > 21:00</li></ul></div></div>
+  </div>
+
+
+                                </div>
+                                <div class="mobile-display">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="279" id="evt-br-doc_279">
+  <div class="date-head">
+    <div class="previous-cal-app" id="279" data-date="Sun 2023-09-24" data-columns="1" data-selected="true" data-div="evt-br-doc_279">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                              </ul>
+    </div>
+    <div class="next-cal-app" id="279" data-selected="true"  data-date="Tue 2023-09-26" data-columns="1" data-div="evt-br-doc_279" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-25" data-calendar-time="18:00" class="js-calendar-time gettimecal  booking" id="279_mon 2023-09-25_18:00" > 18:00</li><li data-calendar-date="2023-09-25" data-calendar-time="18:45" class="js-calendar-time gettimecal  booking" id="279_mon 2023-09-25_18:45" > 18:45</li><li data-calendar-date="2023-09-25" data-calendar-time="19:30" class="js-calendar-time gettimecal  booking" id="279_mon 2023-09-25_19:30" > 19:30</li><li data-calendar-date="2023-09-25" data-calendar-time="20:15" class="js-calendar-time gettimecal  booking" id="279_mon 2023-09-25_20:15" > 20:15</li><li data-calendar-date="2023-09-25" data-calendar-time="21:00" class="js-calendar-time   booking" id="279_mon 2023-09-25_21:00" > 21:00</li></ul></div></div>
+  </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="doctor-wrapper">
+                        <input type="hidden" value="" id="actual_data">
+                        <div id="doctorMapData_287" class="js-doctor-map-data"
+                             data-name="Dr AFFETO Juliette"
+                             data-latitude="6.4834731" data-longitude="2.3349515"
+                             data-address="Clinique val de grâce de Calavi est située à Abomey calavi/Zopah quartier cité &quot;les palmarès&quot;"></div>
+
+                        <div class="doctor-wrapper-content doctor row" id="updates">
+                            <div class="col-md-6 evt-br" style="padding: 0;">
+                                <div class="doctor">
+                                    <div class="left-events left-img-ph">
+                                        <img alt="AFFETO Juliette"
+                                             src="assets/images/home/man.png"/>
+                                    </div>
+                                    <div class="left-events left-infos">
+                                        <h5>Dr AFFETO Juliette</h5>
+                                        <div class="speciality">Cardiologue</div>
+                                        <div class="gc-ratting" data-rate="0"
+                                             title="not rated yet" style="cursor: default; width: 100px;"></div>
+                                        <div class="pt-ent">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6>
+                                                        <span><img src="assets/images/patient-login/13.png"></span>&nbsp; Abomey Calavi
+                                                        , Benin</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-prf">
+                                    <div class="row">
+                                        <div class="col btn-profile">
+                                            <h6>
+                                                <span><img src="assets/images/patient-login/14.png"></span>
+                                                <a href="doctor/profile/affeto-juliette-573">Voir
+                                                    profil</a>
+                                            </h6>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div data-doctor="287"
+                                 class="col-md-6 evt-br-1 sticky-calendar js-calendar-wrapper"
+                                 data-center-id="16"
+                                 data-center-type="clinic" id="calendar_blk">
+
+                                <div class="mobile-hidden">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="287" id="evt-br-doc_287">
+  <div class="date-head">
+    <div class="previous-cal-app" id="287" data-date="Sun 2023-09-24" data-columns="3" data-selected="true" data-div="evt-br-doc_287">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mar</span><br/>
+          <span class="dttime-list-date">26-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mer</span><br/>
+          <span class="dttime-list-date">27-09-2023</span>
+        </li>
+              </ul>
+    </div>
+    <div class="next-cal-app" id="287" data-selected="true"  data-date="Tue 2023-09-26" data-columns="3" data-div="evt-br-doc_287" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul></ul></div></div>
+  </div>
+
+
+                                </div>
+                                <div class="mobile-display">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="287" id="evt-br-doc_287">
+  <div class="date-head">
+    <div class="previous-cal-app" id="287" data-date="Sun 2023-09-24" data-columns="1" data-selected="true" data-div="evt-br-doc_287">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                              </ul>
+    </div>
+    <div class="next-cal-app" id="287" data-selected="true"  data-date="Tue 2023-09-26" data-columns="1" data-div="evt-br-doc_287" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div></div>
+  </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="doctor-wrapper">
+                        <input type="hidden" value="" id="actual_data">
+                        <div id="doctorMapData_294" class="js-doctor-map-data"
+                             data-name="Dr CHABI ERIOLLA"
+                             data-latitude="6.4866892" data-longitude="2.356026"
+                             data-address="Clinique les Chrysalides située à Abomey -Calavi Zopah dans la von en face de la station JNP."></div>
+
+                        <div class="doctor-wrapper-content doctor row" id="updates">
+                            <div class="col-md-6 evt-br" style="padding: 0;">
+                                <div class="doctor">
+                                    <div class="left-events left-img-ph">
+                                        <img alt="CHABI ERIOLLA"
+                                             src="uploads/doctor/eriolla-chabi-294_0807967001660912921.jpg"/>
+                                    </div>
+                                    <div class="left-events left-infos">
+                                        <h5>Dr CHABI ERIOLLA</h5>
+                                        <div class="speciality">Pediatre</div>
+                                        <div class="gc-ratting" data-rate="0"
+                                             title="not rated yet" style="cursor: default; width: 100px;"></div>
+                                        <div class="pt-ent">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6>
+                                                        <span><img src="assets/images/patient-login/13.png"></span>&nbsp; Abomey Calavi
+                                                        , Benin</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-prf">
+                                    <div class="row">
+                                        <div class="col btn-profile">
+                                            <h6>
+                                                <span><img src="assets/images/patient-login/14.png"></span>
+                                                <a href="doctor/profile/chabi-eriolla-587">Voir
+                                                    profil</a>
+                                            </h6>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div data-doctor="294"
+                                 class="col-md-6 evt-br-1 sticky-calendar js-calendar-wrapper"
+                                 data-center-id="57"
+                                 data-center-type="clinic" id="calendar_blk">
+
+                                <div class="mobile-hidden">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="294" id="evt-br-doc_294">
+  <div class="date-head">
+    <div class="previous-cal-app" id="294" data-date="Sun 2023-09-24" data-columns="3" data-selected="true" data-div="evt-br-doc_294">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mar</span><br/>
+          <span class="dttime-list-date">26-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mer</span><br/>
+          <span class="dttime-list-date">27-09-2023</span>
+        </li>
+              </ul>
+    </div>
+    <div class="next-cal-app" id="294" data-selected="true"  data-date="Tue 2023-09-26" data-columns="3" data-div="evt-br-doc_294" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul></ul></div><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-27" data-calendar-time="15:00" class="js-calendar-time gettimecal  booking" id="294_wed 2023-09-27_15:00" > 15:00</li><li data-calendar-date="2023-09-27" data-calendar-time="15:30" class="js-calendar-time gettimecal  booking" id="294_wed 2023-09-27_15:30" > 15:30</li><li data-calendar-date="2023-09-27" data-calendar-time="16:00" class="js-calendar-time gettimecal  booking" id="294_wed 2023-09-27_16:00" > 16:00</li><li data-calendar-date="2023-09-27" data-calendar-time="16:30" class="js-calendar-time gettimecal  booking" id="294_wed 2023-09-27_16:30" > 16:30</li><li data-calendar-date="2023-09-27" data-calendar-time="17:00" class="js-calendar-time   booking" id="294_wed 2023-09-27_17:00" > 17:00</li><li data-calendar-date="2023-09-27" data-calendar-time="17:30" class="js-calendar-time   booking" id="294_wed 2023-09-27_17:30" > 17:30</li><li data-calendar-date="2023-09-27" data-calendar-time="18:00" class="js-calendar-time   booking" id="294_wed 2023-09-27_18:00" > 18:00</li></ul></div></div>
+  </div>
+
+
+                                </div>
+                                <div class="mobile-display">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="294" id="evt-br-doc_294">
+  <div class="date-head">
+    <div class="previous-cal-app" id="294" data-date="Sun 2023-09-24" data-columns="1" data-selected="true" data-div="evt-br-doc_294">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                              </ul>
+    </div>
+    <div class="next-cal-app" id="294" data-selected="true"  data-date="Tue 2023-09-26" data-columns="1" data-div="evt-br-doc_294" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul></ul></div></div>
+  </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="doctor-wrapper">
+                        <input type="hidden" value="" id="actual_data">
+                        <div id="doctorMapData_308" class="js-doctor-map-data"
+                             data-name="M. Comlan Kouassi"
+                             data-latitude="6.3939585" data-longitude="2.3429513"
+                             data-address="Cabinet Arion"></div>
+
+                        <div class="doctor-wrapper-content doctor row" id="updates">
+                            <div class="col-md-6 evt-br" style="padding: 0;">
+                                <div class="doctor">
+                                    <div class="left-events left-img-ph">
+                                        <img alt="Comlan Kouassi"
+                                             src="assets/images/home/man.png"/>
+                                    </div>
+                                    <div class="left-events left-infos">
+                                        <h5>M. Comlan Kouassi</h5>
+                                        <div class="speciality">Psychotherapeute, Psychologue</div>
+                                        <div class="gc-ratting" data-rate="0"
+                                             title="not rated yet" style="cursor: default; width: 100px;"></div>
+                                        <div class="pt-ent">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h6>
+                                                        <span><img src="assets/images/patient-login/13.png"></span>&nbsp; Abomey Calavi
+                                                        , Benin</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="view-prf">
+                                    <div class="row">
+                                        <div class="col btn-profile">
+                                            <h6>
+                                                <span><img src="assets/images/patient-login/14.png"></span>
+                                                <a href="doctor/profile/comlan-kouassi-615">Voir
+                                                    profil</a>
+                                            </h6>
+                                        </div>
+                                                                            </div>
+                                </div>
+                            </div>
+
+                            <div data-doctor="308"
+                                 class="col-md-6 evt-br-1 sticky-calendar js-calendar-wrapper"
+                                 data-center-id=""
+                                 data-center-type="" id="calendar_blk">
+
+                                <div class="mobile-hidden">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="308" id="evt-br-doc_308">
+  <div class="date-head">
+    <div class="previous-cal-app" id="308" data-date="Sun 2023-09-24" data-columns="3" data-selected="true" data-div="evt-br-doc_308">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mar</span><br/>
+          <span class="dttime-list-date">26-09-2023</span>
+        </li>
+                        <li class="dttime-list">
+          <span class="dttime-list-day">Mer</span><br/>
+          <span class="dttime-list-date">27-09-2023</span>
+        </li>
+              </ul>
+    </div>
+    <div class="next-cal-app" id="308" data-selected="true"  data-date="Tue 2023-09-26" data-columns="3" data-div="evt-br-doc_308" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-25" data-calendar-time="09:00" class="js-calendar-time gettimecal  booking" id="308_mon 2023-09-25_09:00" > 09:00</li><li data-calendar-date="2023-09-25" data-calendar-time="10:00" class="js-calendar-time gettimecal  booking" id="308_mon 2023-09-25_10:00" > 10:00</li><li data-calendar-date="2023-09-25" data-calendar-time="11:00" class="js-calendar-time gettimecal  booking" id="308_mon 2023-09-25_11:00" > 11:00</li><li data-calendar-date="2023-09-25" data-calendar-time="12:00" class="js-calendar-time gettimecal  booking" id="308_mon 2023-09-25_12:00" > 12:00</li><li data-calendar-date="2023-09-25" data-calendar-time="13:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_13:00" > 13:00</li><li data-calendar-date="2023-09-25" data-calendar-time="14:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_14:00" > 14:00</li><li data-calendar-date="2023-09-25" data-calendar-time="15:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_15:00" > 15:00</li><li data-calendar-date="2023-09-25" data-calendar-time="16:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_16:00" > 16:00</li><li data-calendar-date="2023-09-25" data-calendar-time="17:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_17:00" > 17:00</li><li data-calendar-date="2023-09-25" data-calendar-time="18:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_18:00" > 18:00</li></ul></div><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-26" data-calendar-time="09:00" class="js-calendar-time gettimecal  booking" id="308_tue 2023-09-26_09:00" > 09:00</li><li data-calendar-date="2023-09-26" data-calendar-time="10:00" class="js-calendar-time gettimecal  booking" id="308_tue 2023-09-26_10:00" > 10:00</li><li data-calendar-date="2023-09-26" data-calendar-time="11:00" class="js-calendar-time gettimecal  booking" id="308_tue 2023-09-26_11:00" > 11:00</li><li data-calendar-date="2023-09-26" data-calendar-time="12:00" class="js-calendar-time gettimecal  booking" id="308_tue 2023-09-26_12:00" > 12:00</li><li data-calendar-date="2023-09-26" data-calendar-time="13:00" class="js-calendar-time   booking" id="308_tue 2023-09-26_13:00" > 13:00</li><li data-calendar-date="2023-09-26" data-calendar-time="14:00" class="js-calendar-time   booking" id="308_tue 2023-09-26_14:00" > 14:00</li><li data-calendar-date="2023-09-26" data-calendar-time="15:00" class="js-calendar-time   booking" id="308_tue 2023-09-26_15:00" > 15:00</li><li data-calendar-date="2023-09-26" data-calendar-time="16:00" class="js-calendar-time   booking" id="308_tue 2023-09-26_16:00" > 16:00</li><li data-calendar-date="2023-09-26" data-calendar-time="17:00" class="js-calendar-time   booking" id="308_tue 2023-09-26_17:00" > 17:00</li><li data-calendar-date="2023-09-26" data-calendar-time="18:00" class="js-calendar-time   booking" id="308_tue 2023-09-26_18:00" > 18:00</li></ul></div><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-27" data-calendar-time="09:00" class="js-calendar-time gettimecal  booking" id="308_wed 2023-09-27_09:00" > 09:00</li><li data-calendar-date="2023-09-27" data-calendar-time="10:00" class="js-calendar-time gettimecal  booking" id="308_wed 2023-09-27_10:00" > 10:00</li><li data-calendar-date="2023-09-27" data-calendar-time="11:00" class="js-calendar-time gettimecal  booking" id="308_wed 2023-09-27_11:00" > 11:00</li><li data-calendar-date="2023-09-27" data-calendar-time="12:00" class="js-calendar-time gettimecal  booking" id="308_wed 2023-09-27_12:00" > 12:00</li><li data-calendar-date="2023-09-27" data-calendar-time="13:00" class="js-calendar-time   booking" id="308_wed 2023-09-27_13:00" > 13:00</li><li data-calendar-date="2023-09-27" data-calendar-time="14:00" class="js-calendar-time   booking" id="308_wed 2023-09-27_14:00" > 14:00</li><li data-calendar-date="2023-09-27" data-calendar-time="15:00" class="js-calendar-time   booking" id="308_wed 2023-09-27_15:00" > 15:00</li><li data-calendar-date="2023-09-27" data-calendar-time="16:00" class="js-calendar-time   booking" id="308_wed 2023-09-27_16:00" > 16:00</li><li data-calendar-date="2023-09-27" data-calendar-time="17:00" class="js-calendar-time   booking" id="308_wed 2023-09-27_17:00" > 17:00</li><li data-calendar-date="2023-09-27" data-calendar-time="18:00" class="js-calendar-time   booking" id="308_wed 2023-09-27_18:00" > 18:00</li></ul></div></div>
+  </div>
+
+
+                                </div>
+                                <div class="mobile-display">
+                                    <div class="evt-br-doc js-calendar-app" data-doctor="308" id="evt-br-doc_308">
+  <div class="date-head">
+    <div class="previous-cal-app" id="308" data-date="Sun 2023-09-24" data-columns="1" data-selected="true" data-div="evt-br-doc_308">
+      <img id="previouscalapp" src="assets/images/career/cal-left.png" />
+    </div>
+    <div class="dttime">
+      <ul>
+                <li class="dttime-list">
+          <span class="dttime-list-day">Lun</span><br/>
+          <span class="dttime-list-date">25-09-2023</span>
+        </li>
+                              </ul>
+    </div>
+    <div class="next-cal-app" id="308" data-selected="true"  data-date="Tue 2023-09-26" data-columns="1" data-div="evt-br-doc_308" >
+      <img id="nextcalapp" src="assets/images/career/cal-right.png" />
+    </div>
+    <div class="clearfix"></div>
+  </div>
+
+      <div class="date-inner-mn"><div class="date-inner-mn-list"><ul><li data-calendar-date="2023-09-25" data-calendar-time="09:00" class="js-calendar-time gettimecal  booking" id="308_mon 2023-09-25_09:00" > 09:00</li><li data-calendar-date="2023-09-25" data-calendar-time="10:00" class="js-calendar-time gettimecal  booking" id="308_mon 2023-09-25_10:00" > 10:00</li><li data-calendar-date="2023-09-25" data-calendar-time="11:00" class="js-calendar-time gettimecal  booking" id="308_mon 2023-09-25_11:00" > 11:00</li><li data-calendar-date="2023-09-25" data-calendar-time="12:00" class="js-calendar-time gettimecal  booking" id="308_mon 2023-09-25_12:00" > 12:00</li><li data-calendar-date="2023-09-25" data-calendar-time="13:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_13:00" > 13:00</li><li data-calendar-date="2023-09-25" data-calendar-time="14:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_14:00" > 14:00</li><li data-calendar-date="2023-09-25" data-calendar-time="15:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_15:00" > 15:00</li><li data-calendar-date="2023-09-25" data-calendar-time="16:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_16:00" > 16:00</li><li data-calendar-date="2023-09-25" data-calendar-time="17:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_17:00" > 17:00</li><li data-calendar-date="2023-09-25" data-calendar-time="18:00" class="js-calendar-time   booking" id="308_mon 2023-09-25_18:00" > 18:00</li></ul></div></div>
+  </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+            <div class="col-md-4">
+                <div class="container-fluid mapfordoctor">
+                    <div class="google-map-doctor">
+                        <div class="img-responsive " id="canvas1">
+
+                            <div id="google_map_canvas"
+                                 style="width: 100%; height: 450px; position: relative; overflow: hidden;"
+                                 class="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer style="background: #161d27;">
+        <div class="container">
+            <div class="mobile-footer mobile-display">
+                <div class="footer-social-networks">
+                    <div class="social-icon facebook"><a href="https://www.facebook.com/MonMedEnligne"><img src="assets/images/social/facebook.png" alt="facebook"/></a></div>
+                    <div class="social-icon instagram"><a href="https://www.instagram.com/monmedenligne/"><img src="assets/images/social/instagram.png" alt="instagram"/></a></div>
+                    <div class="social-icon twitter"><a href="https://twitter.com/monmedenligne"><img src="assets/images/social/twitter.png" alt="twitter"/></a></div>
+                </div>
+                <div class="footer-links">
+                    <span>
+                        <a href="uploads/admin/documents/Privacy-policy-2.pdf" target="_blank" >Politiques de confidentialité</a>|
+                        <a href="uploads/admin/documents/Terms-of-use-2.pdf" target="_blank" >Conditions d’utilisation</a>|
+                    </span>
+                </div>
+                <div class="footer-copyrights">
+                    <h4>Copyright © 2019-2022 MonMedEnLigne by AB&PI</h4> <!-- All rights reserved  -->
+                </div>
+            </div>
+
+            <div class="row mobile-hidden">
+                <div class="col-lg-3 col-xs-6">
+                                        <div class="footer-text">
+                        <h3>Notre emplacement</h3>
+                        <p>Découvrez la prise de rendez-vous médical en ligne avec Monmedenligne</p>
+                        <h6><span><i class="fa fa-envelope"></i> </span>E-mail:  info@monmedenligne.com</h6>
+                        <h6><span><i class="fa fa-phone"></i> </span>Tél: +229 94 52 70 51</h6>
+                        <h6><span><i class="fa fa-map-marker"></i> </span>Adresse : 01 BP 2003 Porto-Novo, Benin</h6>
+                    </div>
+                                    </div>
+
+                <div class="col-lg-3 col-xs-6">
+                    <div class="footer-text ">
+                        <h3>Comment ça marche ?</h3>
+                        <ul>
+                                                        <a href="General/professionnel_de_sante"><li>Professionnel de santé? </li></a>
+                                                        <a href="uploads/admin/documents/Terms-of-use-2.pdf" target="_blank" ><li>Conditions d’utilisation</li></a>
+                            <a href="General/contact"><li>Contactez-nous</li></a>
+                            <a href="uploads/admin/documents/Privacy-policy-2.pdf" target="_blank" ><li>Politiques de confidentialité</li></a>
+                            <a href="General/faq"><li>Questions fréquentes</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix hidden-lg hidden-md hidden-sm"></div>
+                <div class="col-lg-3 col-xs-6">
+                    <div class="footer-text">
+                        <h3>MonMedEnLigne</h3>
+                        <ul><a href="General/aboutus">
+                                <li>A propos</li>
+                            </a>
+                            <!-- <li>AAAAAA</li> -->
+                            <a href="General/careers">
+                                <li>Carrière</li>
+                            </a>
+
+                            <li>Equipe</li>
+                            <a href="Blog">
+                                <li>Blog</li>
+                            </a>
+                            <a href="search@city=9#">
+                                <li>Aide</li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xs-6">
+                    <div class="footer-text last-footer-text">
+                        <h3>Villes</h3>
+                        <ul>
+                                                    <a href="search@city=13" ><li>Ouidah</li></a>
+                                                    <a href="search@city=2" ><li>Cotonou</li></a>
+                                                    <a href="search@city=30" ><li>Allada</li></a>
+                                                    <a href="search@city=8" ><li>Porto-Novo</li></a>
+                                                    <a href="search@city=9" ><li>Abomey Calavi</li></a>
+                                                    <a href="search@city=31" ><li>Parakou</li></a>
+                                                </ul>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+                <div class="col-lg-12 footer-infos">
+                    <div class="copy-right">
+                        <h4>Copyright © 2019-2022 MonMedEnLigne by AB&PI</h4> <!-- All rights reserved  -->
+                    </div>
+                    <div class="social-networks">
+                        <div class="social-icon facebook"><a href="https://www.facebook.com/MonMedEnligne"><img src="assets/images/social/facebook.png" alt="facebook"/></a></div>
+                        <div class="social-icon instagram"><a href="https://www.instagram.com/monmedenligne/"><img src="assets/images/social/instagram.png" alt="instagram"/></a></div>
+                        <div class="social-icon twitter"><a href="https://twitter.com/monmedenligne"><img src="assets/images/social/twitter.png" alt="twitter"/></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--footer-->
+        <a href="search@city=9#" id="back-to-top" title="Back to top"><img src="assets/images/home/btp.png"></a>
+    </footer>
+
+                    <div class="modal custom-modal lg-modal fade" id="errorModal" tabindex="-1" role="dialog"
+                 aria-labelledby="errorModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content" style="background-color: transparent">
+                    </div>
+                </div>
+            </div>
+
+                                        <div class="modal custom-modal lg-modal fade" id="popupModal" tabindex="-1" role="dialog"
+                     aria-labelledby="popupModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content" style="background-color: transparent">
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                                                                                            <iframe width="100%" height="315" src="https://www.youtube.com/embed/b3v0Q3-BItc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    </div>
+                    </div>
+                </div>
+                    
+        <script src="https://code.tidio.co/pih8lrtqbdz5wpa3ii5zqtyziacyaspv.js"></script>
+    </body>
+
+                <script> base_url = "/"; </script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <!-- DataTables -->
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap.min.js"></script>
+    <!-- Select2 -->
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/parsley.min.js"></script>
+    <script src="assets/js/jquery.raty.min.js"></script>
+    <script src="assets/js/filter.js"></script>
+    <!---- calendar appointment---->
+    <script src="assets/js/appointment/cors.js"></script>
+    <script src="assets/js/appointment/bootstrap-calendar.js"></script>
+    <script src="assets/js/appointment/calendar.js"></script>
+
+        <!--- zabuto calendar ---->
+        <script src="assets/js/zabuto_calendar/zabuto-calendar.js"></script>
+        <!--- zabuto calendar ---->
+
+    <!--- time picker ---->
+    <script src="assets/js/jquery.timepicker.js"></script>
+    <script src="assets/js/bootstrap-datepicker.js"></script>
+    <!--- Development ---->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/common.js"></script>
+    <script src="assets/js/developer.js"></script>
+
+        <script>
+          $(function () {
+            const SESSION_NAME = '_monmedenligne_popup_window';
+            var $modal = $('#popupModal');
+            if ($modal.length > 0) {
+              var value = sessionStorage.getItem(SESSION_NAME);
+              if (!value) {
+                $modal.modal();
+              }
+
+              $modal.on('hidden.bs.modal', function () {
+                sessionStorage.setItem(SESSION_NAME, 1);
+              });
+            }
+
+            $('.dropdown-country-picker').on('click', function () {
+              $.ajax({
+                type: 'POST',
+                url: '/change-selected-country',
+                data: {selectedCountry: $(this).data('value')},
+                success: function (data) {
+                  window.location.reload();
+                },
+                error: function (data) {
+
+                }
+              })
+            });
+          });
+        </script>
+    
+    <script src="assets/js/autocomplete/jquery.autocomplete.min.js"></script>
+
+    <script>
+      $('.js-autocomplete').autocomplete({
+        lookup: function (query, done) {
+          if (query && query.length >= 2) {
+            $.ajax({
+              type: 'POST',
+              url: '/search-autocomplete',
+              data: {search: query},
+              success: function (data) {
+                var result = {
+                  suggestions: data
+                };
+
+                done(result);
+              }
+            });
+          }
+        },
+        onSelect: function (suggestion) {
+          if (suggestion.doctor && suggestion.slug) {
+            window.location.href = '/doctor/profile/' + suggestion.slug;
+          } else if (suggestion.clinic && suggestion.slug) {
+            window.location.href = '/clinic/profile/' + suggestion.slug;
+          } else if (suggestion.hospital && suggestion.slug) {
+            window.location.href = '/hospital/profile/' + suggestion.slug;
+          } else if (suggestion.medical && suggestion.slug) {
+            window.location.href = '/medical/profile/' + suggestion.slug;
+          }
+        },
+        formatResult: function (suggestion) {
+          var image = '/assets/images/login/doctor.png';
+
+          switch (suggestion.type) {
+            case 'DOCTOR':
+              image = suggestion.image ? '/uploads/doctor/' + suggestion.image : '/assets/images/login/doctor.png';
+              break;
+            case 'CLINIC':
+              image = suggestion.image ? '/uploads/clinic/' + suggestion.image : '/assets/images/login/doctor.png';
+              break;
+            case 'HOSPITAL':
+              image = suggestion.image ? '/uploads/hospital/' + suggestion.image : '/assets/images/login/doctor.png';
+              break;
+            case 'MEDICAL':
+              image = suggestion.image ? '/uploads/medical/' + suggestion.image : '/assets/images/login/doctor.png';
+              break;
+          }
+
+          return '<div class="result-item" style=""><div class="result-item--img"><img src="https://www.monmedenligne.com/'&#32;+&#32;image&#32;+'" style="max-width: 50px;" /></div> <div class="result-item--info">' + suggestion.value + '</div></div>';
+        }
+      });
+    </script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFHnd93ZXuVLX-rRep6N-Q8PaadpB7ONY&amp;&amp;region=BJ&amp;libraries=places"></script>
+    <script type="text/javascript">
+      //<![CDATA[
+
+      var map; // Global declaration of the map
+      var lat_longs_map = new Array();
+      var markers_map = new Array();
+      var iw_map;
+      var placesService;
+
+      iw_map = new google.maps.InfoWindow();
+
+      function initialize_map() {
+        var myLatlng = new google.maps.LatLng(6.373887, 2.353049);
+        var myOptions = {
+          zoom: 13,
+          center: myLatlng,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        map = new google.maps.Map(document.getElementById('google_map_canvas'), myOptions);
+
+        addMapsMarker(map);
+      }
+
+      function addMapsMarker (map) {
+        $('.js-doctor-map-data').each(function () {
+          var $this = $(this);
+          var myLatlng = new google.maps.LatLng($this.data('latitude'), $this.data('longitude'));
+
+          var markerOptions = {
+            map: map,
+            position: myLatlng,
+          };
+          var marker = createMarker_map(markerOptions);
+          marker.set('content', '<a href="https://www.monmedenligne.com/\&quot;https://www.google.com/maps/search/?api=1&amp;query='+$this.data('latitude')+','+$this.data('latitude')+'" target="new"><h2>' + $this.data('name') + '</h2><h5>' + $this.data('address') + '</h5></a>');
+
+          google.maps.event.addListener(marker, 'click', function (event) {
+            iw_map.setContent(this.get('content'));
+            iw_map.open(map, this);
+          });
+        })
+      }
+
+      function createMarker_map(markerOptions) {
+        var marker = new google.maps.Marker(markerOptions);
+        markers_map.push(marker);
+        lat_longs_map.push(marker.getPosition());
+        return marker;
+      }
+
+      google.maps.event.addDomListener(window, "load", initialize_map);
+
+      var navigateCalendar = function ($wrapper) {
+        $wrapper.on('click', '.next-cal-app', function () {
+          var $this = $(this);
+          var currentDate = $this.attr('data-date');
+          var columns = $this.attr('data-columns');
+          // var $element = $wrapper.find('.js-calendar-app');
+
+          loadCalendar($this.attr('id'), 'next', $wrapper, currentDate, columns);
+        });
+
+        /* === Prev === */
+        $wrapper.on('click', '.previous-cal-app', function () {
+          var $this = $(this);
+          var currentDate = $this.attr('data-date');
+          var columns = $this.attr('data-columns');
+          // var $element = $wrapper.find('.js-calendar-app');
+
+          loadCalendar($this.attr('id'), 'prev', $wrapper, currentDate, columns);
+        });
+
+        function loadCalendar(id, status, $element, dateCnt, columns) {
+          var bookingType = 'home';
+          var options = bookingType === 'center' ? {default: true} : {};
+
+          $.ajax({
+            type: 'POST',
+            url: '/doctor/doctor-main-calendar/'+ id,
+            data: {dateCalendar: dateCnt, status, bookingType, options, columns},
+            success: function (result) {
+              $element.html(result);
+              bookAppointmentTime($element.find('.js-calendar-time'));
+            }
+          });
+        }
+      }
+
+      function bookAppointmentTime($calendarTime) {
+        var calendarDate = $calendarTime.data('calendar-date');
+        var calendarTime = $calendarTime.data('calendar-time');
+        var calendarDateTime = new Date(calendarDate + ' ' + calendarTime);
+        var currentDateTime = new Date();
+
+        if (currentDateTime >= calendarDateTime) {
+          $calendarTime.addClass('hide');
+        }
+
+        $calendarTime.on('click', function gettimecalendar() {
+          var $element = $(this),
+            $wrapper = $element.closest('.js-calendar-wrapper'),
+            doctorId = $wrapper.data('doctor');
+
+          if (currentDateTime >= calendarDateTime) {
+            alert("Désolé.Cette heure est déjà expirée.Veuillez essayer une autre");
+          } else {
+
+            var consultationType = 'home';
+            var query = '?consultationType=' + consultationType;
+            if (consultationType === 'center') {
+              var centerId = $wrapper.data('center-id');
+              var centerType = $wrapper.data('center-type');
+
+              query += '&centerId=' + centerId + '&centerType=' + centerType;
+            }
+            if (doctorId && calendarDate && calendarTime && ['Booked','In vacation','Break'].indexOf(calendarTime) === -1) {
+              window.location.href = '/doctor/booking' + '/' + doctorId + '/' + calendarDate + '/' + calendarTime + query;
+            }
+          }
+        });
+      }
+
+      $(document).ready(function () {
+        document.getElementById('result-wrapper').scrollIntoView({ behavior: 'smooth' });
+
+        $('.select2').select2();
+
+        $('.js-calendar-wrapper').each(function () {
+          navigateCalendar($(this));
+        });
+
+        $('.js-calendar-time').each(function () {
+          bookAppointmentTime($(this));
+        })
+
+        $('.gc-ratting').each(function() {
+          var rate = $(this).data('rate');
+          $(this).raty({
+            readOnly: true,
+            score: rate, //default stars
+          });
+        });
+
+        $('form.form-doctor .row-secondary select').on('change', function (e) {
+          $(this).closest('form').submit();
+        });
+
+        $('form.form-doctor .js-select-speciality').on('change', function (e) {
+          var $this = $(this);
+          var value = $this.val();
+
+          var $select = $this.closest('form').find('select.js-visitation');
+          if ($select.length > 0) {
+            $select.find('option').each(function () {
+              var $option = $(this);
+              if (!value) {
+                $option.show();
+              }
+              else if ($option.data('speciality') == value) {
+                $option.show();
+              }
+              else {
+                $option.hide();
+              }
+            })
+          }
+        });
+
+        $('form.form-doctor').on('submit', function (e) {
+          e.preventDefault();
+
+          var $form = $(this);
+          var arrayData = $form.serializeArray();
+          var params = {}
+
+          arrayData.forEach(function (item) {
+            if (item.name) {
+              var key = item.name.replace(/search|\[|\]/g,'');
+              if (typeof key !== 'undefined' && key !== '_token' && item.value) {
+                params[key] = item.value;
+              }
+            }
+          });
+
+          var queryString = Object.keys(params).map(function(key) {
+            return key + '=' + params[key]
+          }).join('&');
+
+          window.location.href = '/search?' + queryString;
+        })
+
+        $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+          if (scroll >= 500) {
+            $('.google-map-doctor').addClass('sticky-map');
+          }
+          else {
+            $('.google-map-doctor').removeClass('sticky-map');
+          }
+        });
+
+        $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+          if (scroll >= 300) {
+            $('.search-form .row-secondary').addClass('sticky');
+          }
+          else {
+            $('.search-form .row-secondary').removeClass('sticky');
+          }
+        });
+
+        $(window).scroll(function() {
+          var scroll = $(window).scrollTop();
+          if (scroll >= 600) {
+            $('.search-tabs').addClass('sticky');
+          }
+          else {
+            $('.search-tabs').removeClass('sticky');
+          }
+        });
+
+        $('.booking-button').on('click', function () {
+          var $this = $(this);
+
+          $('.booking-button').removeClass('active');
+          $this.addClass('active');
+
+          var $form = $this.closest('form');
+          $form.find('#bookingType').val($this.data('type'));
+          // $form.submit();
+        });
+
+        $('.search-tabs .res-tab').on('click', function () {
+          var $element = $('.results-container');
+          $element.removeClass('map-mode');
+          $element.addClass('results-mode');
+          $('form .search-form').removeClass('filter-mode');
+        });
+
+        $('.search-tabs .map-tab').on('click', function () {
+          var $element = $('.results-container');
+          $element.addClass('map-mode');
+          $element.removeClass('results-mode');
+          $('form .search-form').removeClass('filter-mode');
+        });
+
+        $('.search-tabs .filter-tab').on('click', function () {
+          var $element = $('.results-container');
+          $element.removeClass('map-mode');
+          $element.removeClass('results-mode');
+
+          var $form = $('form .search-form');
+          $form.addClass('filter-mode');
+          $('html, body').animate({
+            scrollTop: $form.find('.row-secondary').offset().top - 100
+          }, 200);
+        });
+      });
+      //]]>
+    </script>
+</html>

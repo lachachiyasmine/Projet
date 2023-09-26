@@ -1,0 +1,462 @@
+.main-content.monpsy-main-content .banner {
+    padding: 30px 0;
+    height: 500px;
+}
+.monpsy-main-content .banner-text {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    height: 50%;
+}
+.monpsy-main-content .banner h2 {
+    width: 50%;
+    text-align: right;
+    color: #fff;
+}
+.monpsy-main-content .banner-bottom-text {
+    display: flex;
+    height: 50%;
+}
+.monpsy-main-content .banner-bottom-text .text-wrapper {
+    align-self: flex-end;
+    display: flex;
+}
+.monpsy-main-content .banner-bottom-text h3 {
+    color: #ffffff;
+    font-size: 22px;
+}
+.square-purple {
+    width: 40px;
+    height: 40px;
+    background-color: #9f1f63;
+    padding: 20px;
+    margin: 20px;
+}
+.monpsy-main-content .box-wrapper {
+    padding: 20px 30px;
+    background: white;
+    border-radius: 30px;
+}
+.monpsy-main-content .container-wrapper {
+    padding: 50px 100px;
+    background: #f2f6f9;
+}
+.monpsy-main-content .text {
+    font-size: 18px;
+    margin: 20px;
+}
+.choose-wrapper {
+    text-align: center;
+}
+img.choose-logo {
+    width: 150px;
+}
+.choose-title {
+    width: 75%;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px auto;
+}
+.choose-step {
+    background: #9f1f63;
+    padding: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: -15px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.choose-step span {
+    margin-top: -10px;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+}
+.choose-img-wrapper {
+    width: 150px;
+    margin: auto;
+    position: relative;
+}
+.container-title {
+    margin: 30px;
+}
+.container-title h3 {
+    color: #9f1f63;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    margin: 2rem auto;
+}
+.container-title h3 .title-gray {
+    color: #9e9e9e;
+}
+.pack-wrapper {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    min-height: 300px;
+    box-shadow: 0 0 8px 2px rgb(31 119 159 / 10%);
+}
+.pack-wrapper h2 {
+     text-align: center;
+     color: #a03863;
+    margin: 10px;
+ }
+.pack-price {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+.pack-price-value {
+    color: #9e9e9e;
+}
+.pack-price-currency {
+    color: #a03863;
+}
+.pack-action {
+    text-align: center;
+    margin: 20px;
+}
+.btn-subscribe-cta {
+    background: #3bc496;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+.btn-subscribe-cta:hover {
+    opacity: 0.75;
+}
+.pack-description ul>li::marker {
+    color: #9e9e9e;
+}
+.faq-panel .panel.panel-default {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+
+}
+.faq-panel .panel-default>.panel-heading {
+    background: transparent;
+    padding: 15px;
+}
+.faq-answer-wrapper {
+    background: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 0 0 8px 2px rgb(31 119 159 / 10%);
+    margin: 0 20px;
+}
+.faq-panel .panel-default .panel-title {
+    font-weight: 600;
+}
+.faq-panel .panel-title a:after {
+    font-family: Fontawesome;
+    content: '\f077';
+    float: left;
+    font-size: 15px;
+    font-weight: 100;
+    color: #a03863;
+}
+.faq-panel .panel-title a.collapsed:after {
+    font-family: Fontawesome;
+    content: '\f078';
+}
+.panel-title a {
+    padding: 0 10px;
+}
+
+.tabs-monpsy-wrapper {
+    background: #3b3e4f;
+}
+.tabs-monpsy-wrapper .nav-tabs-monpsy {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+.tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li {
+    width: auto;
+}
+.tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li>a {
+    padding: 10px;
+    color: #ffffff;
+    filter: none;
+}
+.tab-patient-monpsy .tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li>a,
+.tab-patient-submenu .tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li>a {
+    padding: 20px 10px;
+}
+.tab-patient-monpsy .tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li>a:hover,
+.tab-patient-submenu .tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li>a:hover {
+    background: none;
+}
+.tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li.active>a {
+    color: #b53675;
+}
+.tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li.active>a span {
+    border-bottom: 3px solid #b53675;
+}
+.tabs-monpsy-wrapper .nav-tabs-monpsy.nav-tabs li.sub-tab-icon.active>a span {
+    border-bottom: none;
+}
+.tabs-monpsy-wrapper .nav-tb>li.active>a:after, .tabs-monpsy-wrapper .nav-tb>li.active>a:focus:after {
+    content: none;
+}
+.tab-cnt-search.tab-menu-patient .nav-patient-menu.nav-tabs>li.active>a {
+    color: #a03863;
+    border-bottom: 2px solid #a03863;
+}
+.tab-cnt-search.tab-menu-patient .nav-tabs>li.active>a:after {
+    content: none;
+}
+.tab-cnt-search.tab-menu-patient .nav-tabs li {
+    text-align: center;
+}
+.tab-monpsy .tab-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* DataTables CSS*/
+table.custom-dataTable {
+    text-align: center;
+}
+table.custom-dataTable tr.selected>td {
+    background: #a03863;
+}
+table.custom-dataTable tr>th {
+    background: #fff;
+    border-right: 2px solid #eee;
+    font-weight: 400;
+    text-align: center;
+}
+table.custom-dataTable tr>td {
+    background: #848792;
+    border-right: 2px solid #eee;
+    color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.tab-monpsy .tab-content .dataTables_wrapper .dataTables_filter input[type=search] {
+    background: #ffffff;
+    border-radius: 30px;
+    border: 1px solid #848792;
+    color: #848792;
+    padding-left: 22px;
+}
+.tab-monpsy .tab-content .dataTables_wrapper .dataTables_filter input[type=search]:after {
+    font-family: Fontawesome;
+    content: '\f077';
+    float: right;
+    font-size: 15px;
+    font-weight: 100;
+    color: #a03863;
+}
+.tab-monpsy .tab-content .dataTables_wrapper .dataTables_filter label {
+    position: relative;
+}
+.tab-monpsy .tab-content .dataTables_wrapper .dataTables_filter label:before {
+    font-family: Fontawesome;
+    content: '\f002';
+    font-size: 15px;
+    font-weight: 100;
+    color: #848792;
+    position: absolute;
+    top: 4px;
+    left: 55px;
+}
+.tab-monpsy .tab-content .dataTables_wrapper .dataTables_filter label:after {
+    font-family: Fontawesome;
+    content: '\f077';
+    font-size: 15px;
+    font-weight: 100;
+    color: #a03863;
+    position: absolute;
+    top: 4px;
+    right: 10px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #a03863;
+    border-color: #a03863;
+}
+.payment-dataTable-wrapper>.dataTables_wrapper>.row>.col-sm-6 {
+    width: 100%;
+}
+
+/* End DataTable CSS */
+/* */
+.btn.primary-cta {
+    color: #ffffff;
+    background-color: #a03863;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 1px solid;
+}
+.btn.primary-cta:hover {
+    color: #a03863;
+    background-color: #ffffff;
+}
+
+.btn.danger-cta {
+    color: #ffffff;
+    background-color: #dc3545;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 1px solid;
+}
+.btn.danger-cta:hover {
+    color: #dc3545;
+    background-color: #ffffff;
+}
+
+.btn.success-cta {
+    color: #ffffff;
+    background-color: #3bc496;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 1px solid;
+}
+.btn.success-cta:hover {
+    color: #3bc496;
+    background-color: #ffffff;
+}
+.availability-btn {
+    cursor: pointer;
+}
+
+img.fa-icon {
+    width: 15px;
+}
+.payment-box {
+    display: flex;
+    margin: 30px 0;
+}
+.payment-box .payment-box--label {
+    padding: 20px 30px;
+    background: #ffffff;
+}
+.payment-box .payment-box--value {
+    background: #59c597;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+.special-modal .modal-header {
+    border: none;
+}
+.special-modal .modal-header h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+}
+.special-modal .modal-content {
+    border-radius: 15px;
+    padding: 0 20px 20px;
+}
+.special-modal .form-bottom {
+    text-align: center;
+}
+
+.consultation-type-wrapper {
+    margin-bottom: 20px;
+}
+.consultation-type-select {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.consultation-type {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.consultation-type img {
+    width: 80px;
+}
+.consultation-type.active img {
+    border: 2px solid #bd0c5f;
+    padding: 5px;
+}
+.therapist-appointment-item {
+    margin: 10px;
+    padding: 20px;
+    background: #ffffff;
+}
+.therapist-appointment-item img.doctor-profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.therapist-appointment-item .appt-infos {
+    margin-top: 20px;
+}
+.therapist-appointment-item .appt-infos label {
+    color: #a03863;
+}
+.therapist-appointment-item .appt-actions h3 {
+    margin: 0 0 30px;
+    color: #a03863;
+    text-align: right;
+}
+.therapist-appointment-item .item-actions {
+    text-align: right;
+    min-height: 75px;
+}
+.therapist-appointment-item .appt-actions .actions-infos {
+    display: flex;
+    justify-content: flex-end;
+}
+.special-modal .select2-selection.select2-selection--single:after {
+    font-family: Fontawesome;
+    content: '\f002';
+    font-size: 15px;
+    font-weight: 100;
+    color: #848792;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.special-modal .select2-selection.select2-selection--single {
+    border-radius: 30px;
+}
+
+@media (max-width: 768px) {
+    .main-content.monpsy-main-content .banner {
+        height: auto;
+    }
+    .monpsy-main-content .container-wrapper {
+        padding: 20px;
+    }
+
+    .therapist-appointment-item .appt-actions h3 {
+        text-align: center;
+    }
+    .therapist-appointment-item .item-actions {
+        text-align: center;
+    }
+    .therapist-appointment-item .appt-actions .actions-infos {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-cnt-search .nav-tabs li.nav-menu-mon-psy {
+        float: none;
+        display: flex;
+    }
+    .tab-cnt-search .nav-tabs li.nav-menu-mon-psy a img {
+        width: 100%;
+        height: auto;
+    }
+}

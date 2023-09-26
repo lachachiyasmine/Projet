@@ -1,0 +1,502 @@
+.search-tabs {
+    display: none;
+}
+
+.nav > li.nav-register, .nav > li.nav-logout, .nav > li a.nav-close, .nav > li.nav-login, .nav > li.nav-log {
+    display: none;
+}
+
+.nav-main .js-previous-btn {
+    display: none;
+}
+
+.evt-br, .evt-br-1 {
+    border: none;
+    padding: 0;
+}
+
+.doctor-wrapper .doctor-wrapper-content {
+    border: 1px solid #b9b9b9;
+    border-radius: 10px;
+}
+
+.search-label h2 {
+    text-align: center;
+    margin: 30px 10px;
+    color: #7f7f7f;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+
+.header-button-mobile {
+    background: #a03863;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
+    width: auto;
+    padding: 10px 20px;
+    border: 1px solid #a03863;
+    text-align: center;
+    cursor: pointer;
+}
+
+.overlay-box {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    z-index: 999;
+    top: 0;
+    display: none;
+}
+
+.evt-br .doctor {
+    display: flex;
+    padding: 0;
+}
+
+.evt-br .doctor .left-img-ph {
+    width: 40%;
+    text-align: center;
+}
+
+.evt-br .doctor .left-infos {
+    width: 60%;
+}
+
+@media (max-width: 990px) {
+    .clinic-doctors-appt {
+        text-align: center;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 712px) {
+    .evt-br .doctor {
+        display: flex;
+        padding: 0;
+        min-height: 150px;
+    }
+
+    .affix-container.modal-overlay {
+        position: fixed;
+        z-index: 1;
+    }
+
+    .affix-container.modal-overlay .overlay-box {
+        display: block;
+        margin: 0 -15px;
+    }
+
+    .affix-container .card.card-side {
+        display: none;
+    }
+
+    .affix-container.modal-overlay .card.card-side {
+        display: block;
+        position: fixed;
+        width: 90%;
+        z-index: 1000;
+    }
+
+    .container-search {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .header-sgnin .navbar-collapse {
+        position: fixed;
+        background: #a13862;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        width: 70%;
+        z-index: 1000;
+    }
+
+    .header-sgnin .navbar-collapse li > a {
+        color: #ffffff;
+        margin: 0;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .header-sgnin .navbar-collapse li.active > a {
+        color: #ffffff;
+    }
+
+    .header-sgnin .navbar-collapse li > a.nav-close {
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 40px;
+        right: 0;
+        text-align: right;
+        padding: 10px 30px 20px;
+    }
+
+    .header-sgnin .signin li a {
+        width: auto;
+        font-size: 1.2rem;
+    }
+
+    .nav-head .active:after {
+        content: unset;
+        color: #ffffff;
+    }
+
+    .form-doctor .wrapper-radio {
+        margin: 0;
+        text-align: center;
+    }
+
+    .search-form .row-main {
+        display: block;
+        padding: 0 30px;
+    }
+
+    .search-form .row-main .form-group {
+        width: auto;
+        margin: 10px;
+    }
+
+    .search-form .row-main .form-control {
+        height: 50px;
+        padding: 0 30px;
+        text-align: center
+    }
+
+    .search-form .row-secondary .form-group {
+        max-width: 100%;
+    }
+
+    .search-form .row-secondary .form-control {
+        border-bottom-color: #a03863;
+        border-right: 0;
+    }
+
+    .search-tabs {
+        display: block;
+    }
+
+    .search-tabs .nav {
+        display: flex;
+        background-color: #ffffff;
+        border-bottom: 2px solid #dde3e8;
+    }
+
+    .search-tabs ul.nav li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .search-tabs ul.nav li.active a {
+        color: #2791dd;
+        border-bottom: 2px solid #2791dd;
+        font-weight: 900;
+    }
+
+    .results-container.results-mode .mapfordoctor {
+        display: none;
+    }
+
+    .results-container.map-mode .doctor-wrapper {
+        display: none;
+    }
+
+    form .search-form .row-secondary-wrapper {
+        display: none;
+        -webkit-transition: all .5s ease-in-out .25s;
+        -moz-transition: all .5s ease-in-out .25s;
+        transition: all .5s ease-in-out .25s;
+    }
+
+    form .search-form.filter-mode .row-secondary-wrapper {
+        display: block;
+    }
+
+    .search-tabs.sticky {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        margin: 0;
+        width: 100%;
+    }
+
+    .choose-button-wrapper .btn.custom-btn {
+        padding: 6px 5px;
+        margin: 30px 0;
+        width: 18%;
+        max-width: 100px;
+        text-align: center;
+    }
+
+    .register-index, .logout-index, .log-index, .login-index {
+        display: none;
+    }
+
+    .nav > li.nav-register, .nav > li.nav-logout, .nav > li.nav-login, .nav > li.nav-log, .nav > li a.nav-close {
+        display: block;
+    }
+
+    .join-main .join img, .join-main .join h3, .join-main .join h4, .join-main .join h5,
+    .join-main .join-1 img, .join-main .join-1 h3, .join-main .join-1 h4, .join-main .join-1 h5 {
+        text-align: center;
+        float: none;
+    }
+
+    .join-main .join img, .join-main .join-1 img {
+        margin: auto;
+    }
+
+    .best-doctor-container {
+        padding: 10px 0;
+        margin: 0 20px;
+    }
+
+    .best-doctor-container .best-doctor-wrapper {
+        margin: 0 10px;
+    }
+
+    .block-buttons {
+        margin: 1rem 25px;
+    }
+
+    .bfn-sve.add-new-doctor, .bfn-sve.add-new-pat {
+        display: block;
+        margin: 10px 0;
+        width: fit-content;
+    }
+
+    .header-sgnin .navbar-toggle {
+        position: absolute;
+        right: 10px;
+    }
+
+    .date-head ul li {
+        width: 100%;
+    }
+
+    .date-inner-mn ul {
+        display: flex;
+        width: 100%;
+    }
+
+    .messages-wrapper #contact-list ul li .left, .messages-wrapper #contact-list ul li .right {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .messages-wrapper #contact-list {
+        width: 150px;
+    }
+
+    .messages-wrapper #contact-list ul li .left .user-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .messages-wrapper #contact-list .search-contact-box, .messages-wrapper #conversation-container .conversation-header {
+        min-height: 75px;
+    }
+
+    .messages-wrapper #contact-list ul li .right .user-name {
+        font-size: 1em;
+    }
+
+    .tab-menu-patient .nav-tb li a {
+        padding: 0;
+        margin: 5px;
+        text-align: center;
+    }
+
+    .tab-menu-patient .nav-tb li img {
+        height: 41px;
+        margin: 10px;
+    }
+
+    .evt-br-1, .evt-br-doc {
+        min-height: auto;
+    }
+
+    .date-inner-mn {
+        height: auto;
+    }
+
+    .doctor-item .btn-profile {
+        margin: 10px auto;
+    }
+
+    .tb-patient .br-patient-1, .tb-patient .br-pad {
+        padding: 15px;
+    }
+
+    .tb-patient .left-events {
+        display: block;
+    }
+
+    .tb-patient .pt-ent h6 {
+        font-size: 14px;
+    }
+
+    .tb-patient .appointment {
+        padding: 0;
+    }
+
+    .banner {
+        background-size: cover;
+    }
+
+    .banner .banner-wrapper {
+        margin: auto;
+        padding: 5px 0;
+    }
+
+    form.home-search-form, .form-title, .banner-docexpress .banner-docexpress-content {
+        width: 92%;
+    }
+
+    .banner-docexpress .banner-docexpress-content {
+        margin: 20px auto;
+    }
+
+    .banner-app {
+        display: block;
+        width: 100%;
+    }
+
+    .form-title h2 {
+        font-size: 18px;
+        margin: 20px auto;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .wrapper-radio .booking-button {
+        width: 31%;
+        margin: 5px 2px 15px;
+        max-width: 100px;
+        font-size: 14px;
+    }
+
+    form.home-search-form .search-form {
+        display: block;
+    }
+
+    .search-form .form-group {
+        padding: 5px;
+        width: 100%;
+    }
+
+    .search-form .form-control {
+        padding: 14px;
+        text-align: center;
+    }
+
+    .search-form .select2-container--default .select2-selection--single {
+        padding: 11px;
+        text-align: center;
+    }
+
+    .nav-main .js-previous-btn {
+        float: left;
+        position: absolute;
+        left: 0;
+        margin: 15px;
+        font-size: 22px;
+        display: block;
+    }
+
+    .nav-main .logo-img {
+        margin: -5px 60px 0;
+        padding: 0;
+        width: 175px;
+    }
+
+    .search-label h2 {
+        color: white;
+        font-size: 18px;
+        font-weight: 900;
+        margin: 15px 0 30px;
+    }
+
+    .choose-button-wrapper {
+        padding: 0;
+    }
+
+    .header-button-mobile.sticky-btn {
+        position: fixed;
+        top: 0;
+        right: 10px;
+        left: 10px;
+        transition: all .3s;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+        z-index: 100;
+    }
+
+    .presentation-items {
+        display: block;
+    }
+
+    .pricing-tabs__cards-list {
+        display: block;
+    }
+
+    .pricing-tabs__cards-list .pricing-tabs__card {
+        width: 100%;
+        display: block;
+    }
+
+    .welcome-main-content .tab-webinar {
+        margin: 10px 0;
+    }
+
+    .presentation-wrapper .presentation-content {
+        display: block;
+    }
+
+    .presentation-wrapper .presentation-content .presentation--left-side {
+        width: 100%;
+    }
+
+    .presentation-wrapper .presentation-content .presentation--right-side {
+        width: 100%;
+    }
+
+    .side-block-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container .side-block .picture img {
+        margin: 100px auto;
+        max-width: 90%;
+    }
+
+    .card-body.rdv-section-wrapper {
+        overflow: overlay;
+        max-height: 500px;
+    }
+}
+
+
+@media (max-width: 370px) {
+    form.home-search-form, .form-title {
+        width: 98%;
+    }
+
+    form.home-search-form {
+        padding: 10px 6px;
+    }
+
+    .wrapper-radio .booking-button {
+        padding: 10px 6px;
+    }
+
+    .choose-button-wrapper .btn.custom-btn {
+        font-size: 12px;
+    }
+}
